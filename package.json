@@ -7,7 +7,7 @@
     "autoprefixer:shop": "postcss --use autoprefixer -r --no-map ./style.css",
     "build:css:shop": "node-sass -o ./ ./style.scss && npm run autoprefixer:shop && npm run minify:css:shop",
     "minify:css:shop": "cssnano ./style.css ./style.css",
-    "dev": "onchange -w -d 1000 './*.scss' -- npm run build:css:shop"
+    "dev": "onchange -w -d 1000 './**/*.scss' -- npm run build:css:shop"
   },
   "repository": {
     "type": "git",
