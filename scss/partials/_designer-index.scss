@@ -8,3 +8,11 @@ body.categorypath-designer.category-designer .Content .container .overview__main
 body.categorypath-designer.category-designer .Content .container .overview__letter-element a {
     color: get-color(dark);
 }
+
+.overview__main-list, .overview__nav-choice-container, .overview__subchoice-list {
+    max-width: 1170px;
+
+    @include breakpoint(tablet) {
+        max-width: 720px;
+    }
+}
