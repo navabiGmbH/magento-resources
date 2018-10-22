@@ -1,0 +1,48 @@
+$uvpElementHeight: 30px;
+$header-height: 60px;
+$header-padding: 5px;
+
+$gap: 16px;
+$standard-padding: $gap;
+
+$container-width: 1020px;
+
+$navigationHeight: 60px;
+$uvpHeight: 30px;
+$link-padding: 10px;
+
+$item-details-gallery-height: 85vh;
+// connected to jump variable in itme-details-gallery.js in setThumbnailPosition function
+$item-details-thumbnail-height: 145px;
+$thumbnail-item-size-helper: $item-details-thumbnail-height + $standard-padding;
+$item-details-thumbnails-list-height: 3 * $thumbnail-item-size-helper + $standard-padding * 5;
+// on higher screens we want 4 thumbnails
+$item-details-thumbnails-list-height-large: 4 * $thumbnail-item-size-helper + $standard-padding * 5;
+
+$header-height: 60px;
+$header-padding: 5px;
+
+$navigationHeight: 60px;
+$uvpHeight: 30px;
+$link-padding: 10px;
+
+$showLinksBreakPoint: 1023px;
+$header-max-width: 1500px;
+
+$mobile-header-height: 58px;
+$page-width: 960px;
+
+$item-details-big-font-size: 25px;
+$item-details-price-font-size: 20px;
+$item-details-secondary-font-size: 15px;
+$item-details-small-font-size: 12px;
+
+$breakpoints: (
+    mobile-small-portrait: 375px,
+    mobile-portrait: 419px,
+    mobile-landscape: 667px,
+    mobile: 767px,
+    tablet: 991px,
+    desktop: 1200px,
+    xl: 1600px
+);

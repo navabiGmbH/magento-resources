@@ -1,0 +1,42 @@
+@function get-font-size($size, $device) {
+    @return map-get(map-get($font-map, $size), $device);
+}
+
+@mixin get-font($size){
+    font-size: get-font-size($size, 'desktop');
+
+    @include breakpoint(tablet){
+        font-size: get-font-size($size, 'tablet');
+    }
+
+    @include breakpoint(mobile){
+        font-size: get-font-size($size, 'mobile');
+    }
+}
+
+@mixin font-weight($weight: 'normal') {
+    @if ($weight == 'normal') {
+        font-weight: 400;
+    }
+    @else if ($weight == 'thin') {
+        font-weight: 300;
+    }
+    @else if ($weight == 'bold') {
+        font-weight: 900;
+    }
+}
+
+@mixin font($weight: 'normal', $size: 'default', $line-height: 1) {
+    @include get-font($size);
+    font-family: 'Source Sans Pro', sans-serif;
+    @if ($weight == 'thin') {
+        font-weight: 300;
+    }
+    @else if ($weight == 'normal') {
+        font-weight: 400;
+    }
+    @else if ($weight == 'bold') {
+        font-weight: 900;
+    }
+    line-height: $line-height;
+}

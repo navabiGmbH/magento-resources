@@ -1,0 +1,11 @@
+// used to restyle completely button element
+
+@mixin clear-button-styles {
+    background: none;
+    border: none;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}

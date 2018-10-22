@@ -1,0 +1,94 @@
+$item-details-big-font-size: 25px;
+$item-details-secondary-font-size: 15px;
+$item-details-small-font-size: 12px;
+
+$cta-font-size: 15px;
+$cta-secondary-font-size: 14px;
+
+$font-serif: "Prata", "Times New Roman", Times, serif;
+$font-sans: "Source Sans Pro", sans-serif;
+$font-sans-normal: "font sans serif normal", Arial, sans-serif;
+$font-sans-bold: "font sans serif black", Arial, sans-serif;
+$font-serif-normal: "font serif normal", "Times New Roman", Times, serif;
+$font-serif-italic: "font serif italic", "Times New Roman", Times, serif;
+
+$fontsizes: (
+    tiny: 10px,
+    small: 11px,
+    default: 13px,
+    large: 15px,
+    big: 18px
+);
+
+$font-map: (
+    xxtiny: (
+        mobile: 9px,
+        tablet: 9px,
+        desktop: 10px
+    ),
+    xtiny: (
+        mobile: 10px,
+        tablet: 10px,
+        desktop: 11px
+    ),
+    tiny: (
+        mobile: 11px,
+        tablet: 11px,
+        desktop: 12px
+    ),
+    small: (
+        mobile: 12px,
+        tablet: 12px,
+        desktop: 13px
+    ),
+    default: (
+        mobile: 13px,
+        tablet: 13px,
+        desktop: 14px
+    ),
+    large: (
+        mobile: 14px,
+        tablet: 14px,
+        desktop: 15px
+    ),
+    big: (
+        mobile: 16px,
+        tablet: 17px,
+        desktop: 18px
+    ),
+    bigger: (
+        mobile: 17px,
+        tablet: 18px,
+        desktop: 21px
+    ),
+    huge: (
+        mobile: 18px,
+        tablet: 21px,
+        desktop: 24px
+    ),
+    mega: (
+        mobile: 21px,
+        tablet: 24px,
+        desktop: 28px
+    ),
+    giga: (
+        mobile: 24px,
+        tablet: 28px,
+        desktop: 36px
+    ),
+    ultra: (
+        mobile: 36px,
+        tablet: 42px,
+        desktop: 48px
+    ),
+    tera: (
+        mobile: 42px,
+        tablet: 54px,
+        desktop: 64px
+    ),
+    special: (
+        mobile: 42px,
+        tablet: 64px,
+        desktop: 84px
+    )
+);

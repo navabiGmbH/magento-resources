@@ -1,0 +1,27 @@
+@mixin navabi-input-replacement-label($top: 2px ,$left: -24px) {
+    cursor: pointer;
+
+    &::before {
+        background-color: get-color(light);
+        border: 2px solid get-color(light);
+        border-radius: 50%;
+        box-shadow: 0 0 2px get-color(dark);
+        content: '';
+        cursor: pointer;
+        display: block;
+        height: 15px;
+        left: $left;
+        position: absolute;
+        top: $top;
+        visibility: visible;
+        width: 15px;
+    }
+}
+
+@mixin navabi-input-replacement-input() {
+    visibility: hidden;
+
+    &:checked + label::before {
+        background-color: get-color(dark);
+    }
+}

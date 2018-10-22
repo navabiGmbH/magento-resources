@@ -1,0 +1,19 @@
+// START this should probably stay only in magento, or at least tested before being put in the repo.
+
+.fashionAdvice {
+    margin-top: $gap;
+}
+
+.fashionAdvice__content.flex {
+    padding: 0 0 $gap;
+}
+
+.fashionAdvice__header {
+    padding: $gap;
+}
+
+.fashionAdvice__content--text {
+    margin: 0 auto;
+}
+
+// END

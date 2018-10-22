@@ -1,0 +1,154 @@
+/**
+ *
+ * Colors
+ *
+ */
+
+$grey: #4c4c4c;
+$light-grey: #e3e3e3;
+$mid-grey: #8e8e8e;
+$white: #fff;
+$black: #000;
+$dark-grey: #333;
+$hoverColorForBlackBtn: #333;
+$light-blue: #c2d7df;
+$lighter-blue: #ddeff2;
+$light-purple: #D6C1C4;
+$purple: #AF9193;
+$grey-inactive: #999;
+$shadow: #c3c3c3;
+
+$red-color: #e61612;
+$link-grey: #666;
+$green: #6c934b;
+$box-border: #b2b2b2;
+$my-sale-color: #ff6b60;
+$sale-color: #a10f28;
+$scarity-color: #a10f28;
+$error-red-dark: #a10f28;
+
+
+// colors used in new main header
+$black2: #1E1E1C;
+$grayHeader: #acacac;
+$gray3: #8e8e8e;
+$gray4: #E5E5E5;
+$blue: #76a3ba;
+$red: #FF5A61;
+$red2: #9F0F26;
+$stars: #76a3ba;
+$blue01 : #76a3ba;
+$header-border-grey: #cccccc;
+$grey-link: #666666;
+$grey-box: #f6f5f5;
+$grey-box-border: #e1e1e1;
+$big-grey-box-bg-color: #e6e6e6;
+$main-grey-color: #777777;
+$error-red-background:#f1d5d3;
+$error-red: #c60000;
+$error-yellow: #ffffcb;
+$error-lightgreen: #f5ffd6;
+$error-green: #b3ce5b;
+$green: #6c934b;
+$font-grey: #343333;
+$sale-pink: #ff6b5f;
+$salmon: #e4b4b4;
+$link-btn-purple: #ceb8ba;
+$link-btn-grey: #dadada;
+$footer-border: #e1e1e1;
+$header-border-grey: #cccccc;
+$footer-copyright-bg: #4c4c4c;
+$mobile-grey-box: #e6e6e6;
+$blue-box: #c4d8df;
+
+//
+
+$iconsColor: $black;
+$navabiLogoColor: $black2;
+$searchBoxInputBackground: $white;
+$starRatingDefaultColor: $grey;
+$starRatingActiveColor: $blue;
+$menuIconsExtraBorderColor: $light-grey;
+$uvpElementColor: $light-grey;
+$sslBox-background-color: $grey-box-border;
+$smallLoginModal-footer-bg-color: $light-blue;
+
+$cta-bg-color: $black;
+$cta-bg-color-hover: $mid-grey;
+$cta-txt-color: $white;
+
+$switch-color: $blue;
+
+$darker-grey-box: #cccccc;
+$cta-secondary-bg-color: $white;
+$cta-secondary-txt-color: $black;
+$cta-secondary-border-color: $black;
+
+// 08.02.2018 - starting to build a palette
+// names from http://chir.ag/projects/name-that-color
+
+//greys
+$white-smoke: #f5f5f5;
+$bonjour: #E2E2E2;
+$mercury: #b5b5b5;
+$steel: #656667;
+$tuatara: #4c4c4c;
+$battleship-grey: #a1a1a1;
+
+// blues
+$botticelli: #C8D8DE;
+$moonstone-blue: #76A3BA;
+$bermuda-grey: #6892a4;
+$nebula: #CBD8DD;
+
+// greens
+$orinoco: #F4FFD0;
+$hippie-green: #6C934B;
+
+// reds
+$pink-flare: #DDB6B5;
+$sale-pink: #ff6b5f;
+$guardsman-red: #c60000;
+$old-brick: #981a32;
+
+// yellows
+$sunglow: #FFD749;
+$west-side: #E88038;
+$spicy-mix: #8C6646;
+
+$colors: (
+    dark: (
+        base: $black
+    ),
+    blues: (
+        light: $nebula,
+        base: $moonstone-blue,
+        dark: $bermuda-grey
+    ),
+    greys: (
+        very-light: $bonjour,
+        light: $mercury,
+        mid-light: $battleship-grey,
+        base: $steel,
+        dark: $tuatara
+    ),
+    greens: (
+        light: $orinoco,
+        base: $hippie-green
+    ),
+    reds: (
+        light: $pink-flare,
+        mid-light: $sale-pink,
+        base: $guardsman-red,
+        dark: $old-brick
+    ),
+    yellows: (
+        base: $sunglow,
+        mid-dark: $west-side,
+        dark: $spicy-mix
+    ),
+    light: (
+        base: $white,
+        dark: $white-smoke
+    )
+);

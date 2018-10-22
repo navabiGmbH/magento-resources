@@ -12,6 +12,6 @@ This way we know what does what and it is easier then to move things to the repo
 
 The style.css file is going to be loaded on the magento installation, and is available at this url: https://raw.githack.com/navabiGmbH/magento-resources/master/style.css
 
-Keep in mind that the css can take 5-10 minutes to update at the link above.
+**Keep in mind that the css can take 5-10 minutes to update at the link above.**
 
 Works with node 6 and up
