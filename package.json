@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "autoprefixer:shop": "postcss --use autoprefixer -r --no-map ./style.css",
+    "build:css:shop": "node-sass -o ./ ./style.scss && npm run autoprefixer:shop && npm run minify:css:shop",
+    "minify:css:shop": "cssnano ./style.css ./style.css",
+    "dev": "onchange -w -d 1000 './*.scss' -- npm run build:css:shop"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/navabiGmbH/magento-resources/issues"
   },
-  "homepage": "https://github.com/navabiGmbH/magento-resources#readme"
+  "homepage": "https://github.com/navabiGmbH/magento-resources#readme",
+  "browserslist": [
+    "> 1%",
+    "last 4 versions"
+  ]
 }
