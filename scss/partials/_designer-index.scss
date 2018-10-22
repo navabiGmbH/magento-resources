@@ -1,0 +1,10 @@
+body.categorypath-designer.category-designer .Content .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+body.categorypath-designer.category-designer .Content .container .overview__main-list-letter-header,
+body.categorypath-designer.category-designer .Content .container .overview__letter-element a {
+    color: get-color(dark);
+}
