@@ -58,3 +58,6 @@ body.categorypath-designer.category-designer .Content .container .overview__lett
 
 p.fashionAdvice__content--text {
   margin: 0 auto; }
+
+.customer-account-login .breadcrumbs {
+  display: none; }
