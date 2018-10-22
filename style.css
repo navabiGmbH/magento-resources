@@ -1,1 +1,60 @@
-body.categorypath-designer.category-designer .Content .container{width:100%;max-width:100%;padding:0}body.categorypath-designer.category-designer .Content .container .overview__letter-element a,body.categorypath-designer.category-designer .Content .container .overview__main-list-letter-header{color:#000}.overview__main-list,.overview__nav-choice-container,.overview__subchoice-list{max-width:1170px}@media (max-width:991px){.overview__main-list,.overview__nav-choice-container,.overview__subchoice-list{max-width:720px}}.categoryFullWidthBanner__text{max-width:500px}.categoryFullWidthBanner__text h1{font-size:44px}@media screen and (max-width:768px){.categoryFullWidthBanner__text h1{font-size:32px}}.categoryFullWidthBanner__logo{max-width:160px}.categoryFullWidthBanner__logoImage{max-width:100%}@media screen and (max-width:768px){.categoryFullWidthBanner__logoImage{margin:20px auto 8px}}.categoryFullWidthBanner__text h2{font-size:14px;margin-top:8px}.categoryFullWidthBanner__logo picture{display:block}@media screen and (max-width:768px){.categoryFullWidthBanner__logo+.categoryFullWidthBanner__text{padding-top:0}}.fashionAdvice{margin-top:16px}.fashionAdvice__content.flex{padding:0 0 16px}.fashionAdvice__header{padding:16px}.fashionAdvice__content--text{margin:0 auto}
+/**
+ *
+ * Colors
+ *
+ */
+body.categorypath-designer.category-designer .Content .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0; }
+
+body.categorypath-designer.category-designer .Content .container .overview__main-list-letter-header,
+body.categorypath-designer.category-designer .Content .container .overview__letter-element a {
+  color: #000; }
+
+.overview__main-list, .overview__nav-choice-container, .overview__subchoice-list {
+  max-width: 1170px; }
+  @media (max-width: 991px) {
+    .overview__main-list, .overview__nav-choice-container, .overview__subchoice-list {
+      max-width: 720px; } }
+
+.categoryFullWidthBanner__text {
+  max-width: 500px; }
+
+.categoryFullWidthBanner__text h1 {
+  font-size: 44px; }
+  @media screen and (max-width: 768px) {
+    .categoryFullWidthBanner__text h1 {
+      font-size: 32px; } }
+
+.categoryFullWidthBanner__logo {
+  max-width: 160px; }
+
+.categoryFullWidthBanner__logoImage {
+  max-width: 100%; }
+  @media screen and (max-width: 768px) {
+    .categoryFullWidthBanner__logoImage {
+      margin: 20px auto 8px; } }
+
+.categoryFullWidthBanner__text h2 {
+  font-size: 14px;
+  margin-top: 8px; }
+
+.categoryFullWidthBanner__logo picture {
+  display: block; }
+
+@media screen and (max-width: 768px) {
+  .categoryFullWidthBanner__logo + .categoryFullWidthBanner__text {
+    padding-top: 0; } }
+
+.fashionAdvice {
+  margin-top: 16px; }
+
+.fashionAdvice__content.flex {
+  padding: 0 0 16px; }
+
+.fashionAdvice__header {
+  padding: 16px; }
+
+.fashionAdvice__content--text {
+  margin: 0 auto; }
