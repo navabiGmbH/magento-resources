@@ -1,0 +1,35 @@
+// Top  Designer Pages
+.categoryFullWidthText {
+    align-items: center;
+    background: get-color(greys, very-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $gap;
+    text-align: center;
+
+    &__logo {
+        margin: 0 auto;
+        max-width: 300px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+
+        img {
+            max-width: 200px;
+        }
+    }
+}
+
+.categoryFullWidthText h1 {
+    font-size: get-font-size(giga, desktop);
+    @include font-weight(bold);
+    margin: 16px 0;
+}
+
+.categoryFullWidthText h2 {
+    font-size: get-font-size(big, desktop);
+    line-height: 1.375;
+    margin: 16px auto;
+    max-width: 80%;
+}
