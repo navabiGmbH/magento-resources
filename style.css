@@ -276,3 +276,7 @@ p.fashionAdvice__content--text {
 
 .category .figurTypes__content p {
   margin: 0; }
+
+main .row {
+  margin-left: 0;
+  margin-right: 0; }
