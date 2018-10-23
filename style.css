@@ -64,20 +64,15 @@ p.fashionAdvice__content--text {
   display: none; }
 
 .categoryFullWidthText {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   background: #E2E2E2;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 16px;
   text-align: center; }
   .categoryFullWidthText__logo {
@@ -85,7 +80,8 @@ p.fashionAdvice__content--text {
     max-width: 200px;
     position: relative;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    margin-top: 12px; }
     .categoryFullWidthText__logo img {
       max-width: 200px; }
 
@@ -104,3 +100,179 @@ p.fashionAdvice__content--text {
   @media (max-width: 767px) {
     .categoryFullWidthText h2 {
       max-width: 90%; } }
+
+.figurTypes {
+  margin-bottom: 32px;
+  width: 100%; }
+  @media (max-width: 767px) {
+    .figurTypes {
+      margin-bottom: 16px; } }
+  .figurTypes__wrapper {
+    background: #E2E2E2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 16px; }
+    @media (min-width: 767px) {
+      .figurTypes__wrapper {
+        padding: 20px 60px; } }
+  .figurTypes__content {
+    color: #000;
+    padding: 0 0 16px;
+    text-align: left;
+    width: 100%; }
+    @media (min-width: 767px) {
+      .figurTypes__content {
+        padding: 16px 0; } }
+    .figurTypes__content .underline {
+      text-decoration: underline; }
+    .figurTypes__content--title {
+      font-weight: 900;
+      font-size: 21px;
+      padding: 0 0 16px;
+      text-transform: uppercase; }
+      .figurTypes__content--title.blue {
+        color: #76A3BA; }
+      @media (min-width: 767px) {
+        .figurTypes__content--title {
+          font-size: 36px;
+          min-width: 35%;
+          padding: 16px 0; } }
+      @media (min-width: 991px) {
+        .figurTypes__content--title {
+          min-width: 25%;
+          padding: 0; } }
+    .figurTypes__content--listBullets {
+      margin-bottom: 16px;
+      margin-top: 4px; }
+      .figurTypes__content--listBullets li {
+        line-height: 1.375;
+        list-style-type: disc;
+        margin-left: 20px; }
+    .figurTypes__content--sizes {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      margin: 8px 0 16px;
+      width: auto; }
+      @media (min-width: 767px) {
+        .figurTypes__content--sizes {
+          margin: 5px 0; } }
+      .figurTypes__content--sizes li {
+        font-weight: 900;
+        background: #fff;
+        border: 1px solid #656667;
+        font-size: 15px;
+        height: 35px;
+        line-height: 35px;
+        margin: 5px 0;
+        position: relative;
+        text-align: left;
+        text-indent: 40px;
+        width: 45%; }
+        @media (min-width: 767px) {
+          .figurTypes__content--sizes li {
+            text-align: center;
+            text-indent: 0;
+            width: 70%; } }
+        .figurTypes__content--sizes li::before {
+          background-size: cover;
+          content: '';
+          height: 15px;
+          left: 10px;
+          position: absolute;
+          top: 10px;
+          width: 15px; }
+        .figurTypes__content--sizes li.type-h::before {
+          background-image: url("https://www.navabi.de/img/index/2018/body-shape-h.png"); }
+        .figurTypes__content--sizes li.type-a::before {
+          background-image: url("https://www.navabi.de/img/index/2018/body-shape-a.png"); }
+        .figurTypes__content--sizes li.type-v::before {
+          background-image: url("https://www.navabi.de/img/index/2018/body-shape-v.png"); }
+        .figurTypes__content--sizes li.type-x::before {
+          background-image: url("https://www.navabi.de/img/index/2018/body-shape-x.png"); }
+        .figurTypes__content--sizes li.type-o::before {
+          background-image: url("https://www.navabi.de/img/index/2018/body-shape-o.png"); }
+    @media (min-width: 767px) {
+      .figurTypes__content.order0 {
+        -ms-flex-align: center;
+            align-items: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+        -ms-flex-order: 0;
+            order: 0; }
+        .figurTypes__content.order0 p {
+          font-weight: 900;
+          margin: 0; }
+      .figurTypes__content.order1 {
+        -ms-flex: 1 35%;
+            flex: 1 35%;
+        -ms-flex-order: 1;
+            order: 1;
+        padding-right: 16px; }
+      .figurTypes__content.order2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1 65%;
+            flex: 1 65%;
+        -ms-flex-order: 2;
+            order: 2; } }
+    @media (min-width: 991px) {
+      .figurTypes__content.order1 {
+        -ms-flex: 1 25%;
+            flex: 1 25%; }
+      .figurTypes__content.order2 {
+        -ms-flex: 1 75%;
+            flex: 1 75%; } }
+    .figurTypes__content p {
+      margin: 0; }
+      @media (min-width: 767px) {
+        .figurTypes__content p {
+          display: block; } }
+    .figurTypes__content figure {
+      display: none; }
+      @media (min-width: 991px) {
+        .figurTypes__content figure {
+          background: #fff;
+          border: 1px solid #000;
+          display: block;
+          margin: 0 30px 0 0;
+          max-height: 225px;
+          min-width: 150px;
+          position: relative;
+          width: auto; } }
+      .figurTypes__content figure figcaption {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        z-index: 0; }
+      .figurTypes__content figure img {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1; }
+
+.figurTypes__contentTitle,
+.figurTypes__listTitle {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  line-height: 1.5; }
+  @media (max-width: 991px) {
+    .figurTypes__contentTitle,
+    .figurTypes__listTitle {
+      font-size: 17px; } }
+  @media (max-width: 767px) {
+    .figurTypes__contentTitle,
+    .figurTypes__listTitle {
+      font-size: 16px; } }
+
+.category .figurTypes__content p {
+  margin: 0; }
