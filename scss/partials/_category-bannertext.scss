@@ -1,4 +1,4 @@
-// Top  Designer Pages
+// // // Top  Designer Pages
 .categoryFullWidthText {
     align-items: center;
     background: get-color(greys, very-light);
@@ -10,7 +10,7 @@
 
     &__logo {
         margin: 0 auto;
-        max-width: 300px;
+        max-width: 200px;
         position: relative;
         text-align: center;
         width: 100%;
@@ -24,12 +24,19 @@
 .categoryFullWidthText h1 {
     font-size: get-font-size(giga, desktop);
     @include font-weight(bold);
-    margin: 16px 0;
+    margin: 0 0 ($gap / 2);
 }
 
 .categoryFullWidthText h2 {
-    font-size: get-font-size(big, desktop);
+    font-size: get-font-size(default, desktop);
+    font-weight: 300;
     line-height: 1.375;
-    margin: 16px auto;
-    max-width: 80%;
+    margin: ($gap / 2) auto $gap;
+    margin-bottom: $gap;
+    max-width: 720px;
+
+    @include breakpoint(mobile) {
+        max-width: 90%;
+    }
 }
+
