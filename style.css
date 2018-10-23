@@ -149,6 +149,7 @@ p.fashionAdvice__content--text {
       .figurTypes__content--listBullets li {
         line-height: 1.375;
         list-style-type: disc;
+        list-style: outside;
         margin-left: 20px; }
     .figurTypes__content--sizes {
       display: -ms-flexbox;
