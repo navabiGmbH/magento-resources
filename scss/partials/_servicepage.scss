@@ -1,0 +1,960 @@
+%cta,
+.cta {
+    @include font(normal, default);
+    appearance: none;
+    background: get-color(dark) !important;
+    border-radius: 0;
+    border: 1px solid get-color(dark);
+    color: get-color(light) !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Source Sans Pro';
+    height: auto;
+    padding: ($standard-padding / 2) ($standard-padding * 1.5);
+    text-align: center;
+    text-transform: uppercase;
+    transition: all $standard-animation-time ease;
+
+    @include breakpoint(mobile) {
+        padding: ($standard-padding / 2) $standard-padding;
+    }
+
+    &--bold {
+        @include font-weight(bold);
+    }
+
+    &--large {
+        @include get-font(large);
+        line-height: 1;
+    }
+
+    &--huge {
+        @include get-font(huge);
+        line-height: 1;
+    }
+
+    &--mega {
+        @include get-font(mega);
+        line-height: 1;
+    }
+
+    &--wide {
+        padding: ($standard-padding / 2) ($standard-padding * 3);
+    }
+
+    &--small {
+        @include get-font(small);
+    }
+
+    &--outline {
+        background: transparent !important;
+        color: get-color(dark) !important;
+
+        &.cta--alt {
+            background: transparent !important;
+            border-color: get-color(light);
+            color: get-color(light) !important;
+
+            &:hover {
+                color: get-color(dark) !important;
+            }
+        }
+    }
+
+    &:hover {
+        background: lighten(get-color(dark), 30%) !important;
+        border-color: lighten(get-color(dark), 30%) !important;
+        text-decoration: none;
+    }
+}
+
+// Service Page 17 oct - 15:36
+// CSS for every Service Page
+.servicePage {
+    //General attributes
+    @include font(normal, default);
+    color: get-color(dark);
+    margin-top: $gap;
+    $gapMini: $gap / 2;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    strong {
+        line-height: 1.375;
+        margin-bottom: $gap;
+    }
+
+    a {
+        cursor: pointer;
+
+        &.align-center {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    table {
+        clear: both;
+        display: block;
+
+        &.vertical {
+
+            td,
+            th {
+                border: 1px solid get-color(dark);
+            }
+
+            th {
+                background: get-color(greys, dark);
+                color: get-color(light);
+            }
+        }
+
+        .header-greysDark {
+            background: get-color(greys, dark);
+            color: get-color(light);
+            white-space: nowrap;
+        }
+    }
+
+    .table-responsive {
+
+        td,
+        th {
+            border: 1px solid get-color(dark) !important;
+            min-width: 50px;
+            text-align: center;
+        }
+    }
+
+    section {
+        clear: both;
+    }
+
+    // Aside -- menu side left for every service Page
+    &__aside {
+        max-width: 90%;
+    }
+
+    &__navigator {
+        margin-bottom: $gap * 2;
+
+        h1,
+        h2 {
+            @include font(bold, default);
+            line-height: 20px;
+        }
+
+        li {
+            margin-bottom: $gap / 2;
+        }
+
+        .top-buffer {
+            margin-top: 18px;
+        }
+
+        a {
+            @include font-weight(normal);
+            color: get-color(dark);
+        }
+    }
+
+    // Content
+    &__content {
+        line-height: 16px;
+    }
+
+    &__title {
+        background: get-color(blues, light);
+        @include font(bold, big);
+        padding: $gapMini 16px;
+    }
+
+    &__subtitle {
+        @include font(bold, big);
+        padding: $gap 0;
+    }
+
+    //Payment Page
+    &--payment {
+        display: flex;
+        flex-direction: column;
+        line-height: 16px;
+
+        ul {
+            margin: $gap 0;
+
+            li {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: $gap;
+                @include font(normal, default);
+
+                a {
+                    color: get-color(blues, base);
+                }
+
+                figure {
+                    align-self: baseline;
+                    min-width: 60px;
+                    text-align: center;
+
+                    &>* {
+                        max-width: 80%;
+                    }
+
+                    @include mq-start-from(mobile) {
+                        align-self: center;
+                        min-width: 150px;
+                        padding: $gap;
+                        text-align: center;
+                    }
+                }
+
+                i {
+                    align-self: baseline;
+                    min-width: 60px;
+                    text-align: center;
+
+                    @include mq-start-from(mobile) {
+                        align-self: center;
+                        min-width: 150px;
+                        padding: $gap;
+                        text-align: center;
+                    }
+
+                    @include mq-start-from(tablet) {
+                        align-self: flex-start;
+                        margin: 0 0 0 $gap;
+                        min-width: auto;
+                        padding: 0 $gap 0 0;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .secondUl {
+            margin: $gap 0;
+
+            li {
+                align-items: flex-start;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: $gap;
+                @include font(normal, default);
+
+                a {
+                    color: get-color(blues, base);
+                }
+
+                figure {
+                    min-width: 60px;
+                    text-align: center;
+                    align-items: flex-start;
+                    align-self: flex-start;
+
+                    &>* {
+                        max-width: 80%;
+                    }
+
+                    @include mq-start-from(mobile) {
+                        align-self: flex-start;
+                        min-width: 150px;
+                        padding: 0 $gap;
+                        text-align: center;
+                    }
+                }
+
+                i {
+                    align-self: baseline;
+                    min-width: 60px;
+                    text-align: center;
+
+                    @include mq-start-from(mobile) {
+                        align-self: center;
+                        min-width: 150px;
+                        padding: $gap;
+                        text-align: center;
+                    }
+
+                    @include mq-start-from(tablet) {
+                        align-self: flex-start;
+                        margin: 0 0 0 $gap;
+                        min-width: auto;
+                        padding: 0 $gap 0 0;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    //Delivery Page
+    &--delivery {
+        a {
+            display: block;
+            margin: $gap 0;
+            text-decoration: underline;
+        }
+
+        p {
+            clear: both;
+            display: block;
+        }
+    }
+
+    &--contact {
+        padding: $gap;
+    }
+
+    //Return Page
+    &__stepsToReturn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include mq-start-from(mobile) {
+            flex-direction: row;
+        }
+
+        &--box {
+            max-width: 100%;
+            position: relative;
+            width: 100%;
+
+            @include mq-start-from(mobile) {
+                max-width: 30%;
+            }
+
+            &.nextStep figure::before {
+                content: '';
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-top: 6px solid get-color(dark);
+                height: 0;
+                left: 45%;
+                position: absolute;
+                top: -5px;
+                width: 0;
+
+                @include mq-start-from(mobile) {
+                    border-bottom: 6px solid transparent;
+                    border-left: 6px solid get-color(dark);
+                    border-top: 6px solid transparent;
+                    height: 0;
+                    left: -8px;
+                    top: 65px;
+                    width: 0;
+                }
+            }
+
+            &.nextStep div::after {
+                content: '';
+                border-left: 2px dashed get-color(dark);
+                display: flex;
+                height: 150px;
+                justify-content: center;
+                left: 70px;
+                position: absolute;
+                top: -10px;
+                width: 1px;
+                z-index: 0;
+
+                @include mq-start-from(mobile) {
+                    border-top: 2px dashed get-color(dark);
+                    height: 1px;
+                    left: -35%;
+                    top: 105px;
+                    width: 150px;
+                }
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+
+                p {
+                    align-self: center;
+                    padding: 10px;
+                }
+
+                @include mq-start-from(mobile) {
+                    flex-direction: column;
+                }
+            }
+
+            figure {
+                box-shadow: $box-shadow;
+                align-items: center;
+                background: get-color(greys, very-light);
+                display: flex;
+                justify-content: center;
+                margin: 0 auto $gap;
+                max-width: 145px;
+                min-height: 140px;
+                min-width: 145px;
+                position: relative;
+                width: 100%;
+                z-index: 2;
+
+                @include mq-start-from(mobile) {
+                    max-width: 215px;
+                }
+            }
+
+            h2 {
+                color: get-color(blues, dark);
+                @include font-weight(bold);
+                text-align: left;
+
+                @include mq-start-from(mobile) {
+                    text-align: center;
+                }
+            }
+
+            &.align-center {
+                text-align: center;
+            }
+        }
+    }
+
+    //Contact Page
+    &__bannertop {
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: $gap 0;
+
+        &--box {
+            background: opacize(get-color(light), 0.6);
+            margin: $gap;
+            max-width: 435px;
+            padding: $gap;
+            width: 100%;
+
+            h2 {
+                @include font-weight(bold);
+            }
+
+            ul {
+                margin: $gap 0;
+
+                li {
+                    line-height: 18px;
+                    list-style-position: inside;
+                    list-style-type: disc;
+                }
+            }
+        }
+    }
+
+    //Daten Page
+    &--datenschutzer {
+
+        h2,
+        h3 {
+            &.servicePage__title {
+                background: get-color(blues, light);
+                @include font(bold, default);
+                margin: 10px 0;
+                padding: 10px $gap;
+            }
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        #toc {
+            li {
+                list-style: none;
+            }
+        }
+
+        li {
+            list-style: disc;
+            margin: 0 0 15px 15px;
+        }
+    }
+
+    &--impressum {
+        p {
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+    }
+
+    &__flexBoxes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        @include mq-start-from(mobile) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &--box {
+            margin-top: $gap;
+            width: 100%;
+
+            @include mq-start-from(tablet) {
+                max-width: 430px;
+                width: 45%;
+            }
+        }
+
+        &--boxmeasures {
+            margin-top: $gap;
+            width: 100%;
+
+            @include mq-start-from(mobile) {
+                max-width: 45%;
+                width: auto;
+            }
+
+            @include mq-start-from(tablet) {
+                max-width: 234px;
+                width: 30%;
+            }
+
+            h2 {
+                text-align: center;
+                color: get-color(blues, dark);
+                @include font(bold, default);
+            }
+
+            figure {
+                align-items: center;
+                border: 1px solid get-color(dark);
+                display: flex;
+                margin-bottom: $gap;
+                min-height: 300px;
+                padding: $gap;
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    &__boxContent {
+        border: 1px solid get-color(blues, dark);
+        height: 500px;
+        padding: $gap;
+
+        .servicePage__CheckoutBox {
+            width: 100%;
+
+            div {
+                margin-top: 10px;
+
+                label,
+                textarea {
+                    width: 100%;
+                }
+            }
+
+            input[name='btn_send_comment'] {
+                @extend %cta;
+            }
+
+            input {
+                border: 1px solid get-color(dark);
+                font-size: 14px;
+                height: 35px;
+                padding: 0 8px;
+                width: 100%;
+            }
+        }
+    }
+
+    &__contactlist {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 30px;
+            padding-left: 60px;
+            position: relative;
+            width: 100%;
+            word-break: break-all;
+
+            a {
+                text-decoration: none;
+                color: get-color(greys, dark);
+            }
+
+            i {
+                position: absolute;
+                left: 15px;
+            }
+
+            &.listitem::before {
+                content: '';
+                height: 20px;
+                left: 15px;
+                position: absolute;
+                width: 20px;
+            }
+
+            &.phone::before {
+                background: url('https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/phone.png') no-repeat 0 0 !important;
+            }
+
+            &.fax::before {
+                background: url('https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/fax.png') no-repeat 0 0 !important;
+            }
+
+            &.mail::before {
+                background: url('https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/mail.png') no-repeat 0 0 !important;
+            }
+
+            &.twitter::before {
+                background: url('https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/twitter.png') no-repeat 0 0 !important;
+            }
+
+            &.facebook::before {
+                background: url('https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/facebook.png') 0 0 no-repeat !important;
+            }
+
+            &.shape::before {
+                background: url('https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/style_and_shape_advice.png') 0 0 no-repeat !important;
+            }
+        }
+    }
+
+    &__listInline {
+        li {
+            display: inline;
+            padding-left: 60px;
+
+            &.listitem::before {
+                content: '';
+                left: 0;
+                position: absolute;
+            }
+        }
+    }
+
+    &--newsletter {
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include font-weight(normal);
+        min-height: 580px;
+
+        h1 {
+            @include font-weight(bold);
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: $gap;
+            margin-top: 0;
+        }
+
+        h2 {
+            @include font-weight(bold);
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: $gap;
+            margin-top: 25px;
+        }
+
+        h3 {
+            @include font-weight(bold);
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: $gap;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-bottom: $gap;
+            padding-left: 30px;
+        }
+
+        small {
+            display: block;
+            font-size: 9px;
+            line-height: 13px;
+        }
+
+        input {
+            border: 1px solid get-color(greys, light);
+            height: 30px;
+            padding: 0;
+        }
+
+        .center {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .step1 {
+            top: 50px;
+        }
+
+        .step2 {
+            top: 205px;
+        }
+
+        #email_row {
+            margin: 20px 0 90px;
+        }
+
+        label {
+            font-size: 11px;
+            padding-right: 5px;
+        }
+
+        .btn {
+            background-color: get-color(dark);
+            border: 0 none;
+            color: get-color(light);
+            @include font-weight(normal);
+            font-size: 10.5px;
+            @include font-weight(bold);
+            text-decoration: none;
+            cursor: pointer;
+            padding: 7px 15px 7px 15px;
+        }
+
+        .submit {
+            padding: 8px 15px 8px 15px;
+        }
+    }
+
+    //getFit
+    &__wrapper {
+        padding: $gap;
+    }
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 0 $gap 0;
+
+        p {
+            max-width: 100%;
+
+            @include mq-start-from(tablet) {
+                max-width: 45%;
+            }
+        }
+
+        @include mq-start-from(tablet) {
+            flex-direction: row;
+        }
+    }
+
+    &__getfits {
+        display: flex;
+        flex-direction: column;
+        margin: $gap 0;
+
+        @include mq-start-from(mobile) {
+            flex-direction: row;
+        }
+
+        figure {
+            display: none;
+
+            @include mq-start-from(tablet) {
+                display: block;
+            }
+        }
+
+        div {
+            padding: 0;
+
+            @include mq-start-from(tablet) {
+                padding: 0 $gap;
+            }
+        }
+
+        h2 {
+            @include font-weight(bold);
+        }
+    }
+
+    &__information {
+        color: get-color(blues, base);
+        line-height: $gap;
+
+        @include mq-start-from(mobile) {
+            line-height: 30px;
+        }
+    }
+
+    &__boxInfo {
+        color: get-color(dark);
+        margin: $gap 0;
+        width: auto;
+
+        &.full {
+            max-width: 100%;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        @include mq-start-from(tablet) {
+            margin: 0 auto;
+            max-width: 50%;
+        }
+
+        p {
+            max-width: 100%;
+            text-align: center;
+            width: 100%;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            width: 175px;
+        }
+
+        div {
+            background: get-color(greys, very-light);
+            padding: $gap;
+        }
+    }
+
+    &__moreInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include mq-start-from(mobile) {
+            flex-direction: row;
+        }
+
+        h2 {
+            color: get-color(blues, dark);
+            @include font-weight(bold);
+            text-align: left;
+        }
+
+        &--box {
+            margin: $gap 0;
+            max-width: 100%;
+
+            @include mq-start-from(mobile) {
+                max-width: 45%;
+            }
+
+            div {
+                box-shadow: $box-shadow;
+                background: get-color(blues, light);
+                padding: $gap;
+            }
+
+            .sameHeight {
+                min-height: 200px;
+            }
+        }
+    }
+
+    &__measures {
+        clear: both;
+        display: flex;
+    }
+
+    &__threeboxes {
+        display: flex;
+        flex-direction: column;
+
+        @include mq-start-from(mobile) {
+            flex-direction: row;
+        }
+
+        h3 {
+            @include font(bold, default);
+            color: get-color(blues, dark);
+            text-align: center;
+        }
+
+        p {
+            padding: $gap;
+            text-align: center;
+        }
+    }
+
+    &--affiliate {
+        .servicePage__subtitle {
+            padding: 0 0 16px;
+        }
+
+        .servicePage__flexBoxes--box.big {
+            max-width: 100%;
+            width: 100%;
+
+            @include mq-start-from(mobile) {
+                max-width: 55%;
+                width: 55%;
+            }
+        }
+
+        .servicePage__flexBoxes--box.small {
+            max-width: 100%;
+            width: 100%;
+
+            @include mq-start-from(mobile) {
+                max-width: 40%;
+                width: 40%;
+            }
+        }
+
+        .servicePage__flexBoxes--box img {
+            width: 100%;
+        }
+
+        .servicePage__flexBoxes--box li {
+            list-style: disc;
+            margin: 0 0 6px 15px;
+        }
+
+        .moreinfo {
+            background: $blue;
+            margin: 15px 0;
+            width: 100%;
+
+            p {
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        .separator {
+            border: 1px solid get-color(dark);
+            width: 100%;
+            height: 1px;
+            clear: both;
+            margin: 20px 0;
+        }
+
+        .newsletterSize__email {
+            width: 100%;
+            box-shadow: $box-shadow;
+        }
+    }
+}
