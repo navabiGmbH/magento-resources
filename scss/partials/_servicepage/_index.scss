@@ -1,0 +1,94 @@
+.servicePage {
+  &__moreInfo {
+    &--box {
+      .sameHeight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 220px;
+      }
+    }
+  }
+  &__threeboxes {
+    h3 {
+      text-align: left;
+      margin: 0;
+    }
+    p {
+      padding: 16px 30px 16px 0;
+      text-align: left;
+    }
+  }
+  &__howmeasures {
+    table {
+      display: inline-table;
+    }
+  }
+  &__boxContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &--affiliate {
+    .servicePage {
+      &__flexBoxes {
+        &--box {
+          &.big {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+  &.newsletterSize__emailTitleText {
+    top: 0;
+    margin-left: 0;
+  }
+  &.align {
+    &--left {
+      text-align: left p {
+        text-align: left;
+      }
+    }
+
+    &--right {
+      text-align: right p {
+        text-align: right;
+      }
+    }
+
+    &--center {
+      text-align: center p {
+        text-align: center;
+      }
+    }
+  }
+  &__contactlist {
+    li.listitem:before {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.servicePage h1,
+.servicePage h2,
+.servicePage h3,
+.servicePage h4,
+.servicePage p,
+.servicePage strong {
+  clear: both;
+}
+@media print {
+  .sidebar,
+  header,
+  footer,
+  .breadcrumbs,
+  .FooterNewsletter,
+  .main-footer,
+  .no__print {
+    display: none;
+  }
+}
