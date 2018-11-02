@@ -82,8 +82,12 @@
     .servicePage__listInline {
       -ms-flex-direction: row;
           flex-direction: row; } }
+  .servicePage__listInline li.listitem.phone:before {
+    background: url("https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/phone.png") no-repeat 0 0 !important;
+    height: 30px;
+    width: 33px; }
   .servicePage__listInline li.listitem.press:before {
-    background: url("/media/wysiwyg/press36x30.png");
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAABPZJREFUSA2FlssvnV0UxheOW0VJiGgbEhMhBCGEtGk00hliUvEfGJr4ExiKQdPExEzCgJFExKWNAZW6tOjENUh6c4+2bi3f57e+PCcvX4+u5D17v3uv9ay1nrX2fk/UP9did8jV1ZXvRkVF+Yi65ox6F4xGlH/8+GH379+32xiyRyean0iCYXR0tDsUSPAdZzzs8VxeXtr5+bl9/frVxsbGrLOz037+/Ok62CFB57yH+IkkGMmJHCvDmJgYd8r6r1+/bH9/37a3t21+ft4GBwdtenrajo6OLD8/3xobG//HgnxGXQNGLIGci+qw0TX1rP3+/dtWVlbsw4cPNjc3Z8PDw7a6uup7BEVwdXV11tvba7GxsW6OHeuSOwOQEoFAsZweHh6605mZGXv79q29e/fOGVCgygmW0tLSbGhoyEpLS51NMIMB3FkCgATKSBCfP382HL9//942NjYsPj7eHj9+HKYYcB5s6YmEhAQ7ODi40QdKjPGvDKjByAZQmgpAKEZwhiMFyJp00WfOSUhPTw8zgK7EGcAJIgM6mZoBPjk5abOzs3bv3j13hDNAsaEHYABAHt7ZQyeS4EMMMQ+RiRrk27dv3sE9PT328uVLKyws9OPU0dERBsVIgjMeNZz2GDWX7u0xFAp5wNdjyGuJw4GBAa8xxqL14uLCTk5OPMi4uDh3hlN0yIR93k9PT31kfpeILemHzs7O7PXr19bV1eVgGMuBAqGRqqurrba21rEBEXP0xPHxsbW3t1txcbE1NDRYSkqKBxcpkC9fvlh3d7ft7OxYiBpWVlZaZmambW1tuSG1xIlopERlZWXW3Nwcrrf6hmC5fNra2rxPcnJyvOEiOWcd5pKTk213d9dCAD18+NDq6+u97lBPWXDOngJhjjM1GHPoB0y0cvtxL6Cj4G8HIl3WwYjGGZQ9ffrUj0tQgT0cq2sVEDo4oSe0hkOYU4C3HesdW4SRMoZ0dHJzc628vNzevHnjQFLEAUK0CoZ3BcGcdfZLSkqsqanJUlNTWY4onz59slevXv1XAmWXnZ1tVVVVNjU15V80OcYR98LS0pL19fXdoJYMaNDNzU0PiCBgDWaUwJ+iQEdHP3wVc1tVVFRYVlaWLS8vO+0Yo0wA4+PjfufDGCJGmLPGs7CwYGtra2Fb9v4klOn79+++FaJ2gDEWFRVZQUGBByBDGOLhuPEHg8x40Cc4RgAVKI3JGk8kgSFsHEOZ4ISjCAsTExM3AFR7lYVRFJM5c9YePXrk3/+7SoCfvb09W1xc9KT8GBIJANSlpqbG+vv7w6Byio6cklkwQ0DZg8GWlhY/1kHdIBPgra+vW2trq9/AXgIA2AA0Ly/PH5gBhDX2oUygcq5vALrsj4yM2OjoqPdD0GlwrnLjD9xQsAQAJyUl2fPnz/0oybl0gkDB4PQ9UBIKMKivOYEi2KPvDCgzKT179sz/yQCEkrIPAmOjIGhA9DjK9BBJ3CX8n+C+4STcKAFGAD148MDpUW1ZVxkIIhz9tWOC4y7go0YAL168sIyMDMfB7k/CPym+Hx6AgBkRZSVDscA6OmKBrHHOu3rh48eP/lXkFEhPOBrB4EjzvxIdv4iYyLGyY+QCov48cgYQ+no4OQSADn/Dofdvgg14SPgignpAGXXBkMmTJ088Yj6fugUJDtrJBDCy4k8LdmJGjN4OhnV9RRMTE+1fifWt35UT0AwAAAAASUVORK5CYII=");
     height: 30px;
     width: 33px; }
 
