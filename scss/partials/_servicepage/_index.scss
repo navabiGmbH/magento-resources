@@ -188,6 +188,31 @@
 .servicePage strong {
   clear: both;
 }
+
+.imgBorder {
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #707070;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 6px;
+  text-align: center;
+  width: 55px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+.block__imagesfig {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media print {
   .sidebar,
   header,
