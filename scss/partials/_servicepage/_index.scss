@@ -95,9 +95,22 @@
       display: none;
 
       @include mq-start-from(tablet) {
+        display: block;
         max-width: 40%;
         width: 40%;
       }
+    }
+  }
+
+  &--datenschutzer {
+    p {
+      padding: 0 0 0 16px;
+    }
+  }
+
+  &--impressum {
+    p {
+      padding: 0 0 0 16px;
     }
   }
 

@@ -75,8 +75,15 @@
   display: none; }
   @media (min-width: 991px) {
     .servicePage--affiliate .servicePage__flexBoxes--box.small {
+      display: block;
       max-width: 40%;
       width: 40%; } }
+
+.servicePage--datenschutzer p {
+  padding: 0 0 0 16px; }
+
+.servicePage--impressum p {
+  padding: 0 0 0 16px; }
 
 .servicePage.newsletterSize__emailFormWrapper {
   -ms-flex-direction: column;
