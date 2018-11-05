@@ -45,8 +45,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 550px;
+    height: auto;
+    @include mq-start-from(tablet) {
+      height: 490px;
+    }
+
+    textarea {
+      border: 1px solid get-color(dark);
+    }
+
+    .servicePage__CheckoutBox {
+      width: 100%;
+
+      div {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    }
   }
+
   &--affiliate {
     .servicePage {
       &__flexBoxes {
@@ -63,11 +80,40 @@
     .moreinfo {
       margin: 15px 0 6px;
     }
+
+    .servicePage__flexBoxes--box.big {
+      max-width: 100%;
+      width: 100%;
+
+      @include mq-start-from(tablet) {
+        max-width: 55%;
+        width: 55%;
+      }
+    }
+
+    .servicePage__flexBoxes--box.small {
+      display: none;
+
+      @include mq-start-from(tablet) {
+        max-width: 40%;
+        width: 40%;
+      }
+    }
   }
-  &.newsletterSize__emailTitleText {
-    top: 0;
-    margin-left: 0;
+
+  &.newsletterSize {
+    &__emailFormWrapper {
+      flex-direction: column;
+      @include mq-start-from(tablet) {
+        flex-direction: row;
+      }
+    }
+    &__emailTitleText {
+      top: 0;
+      margin-left: 0;
+    }
   }
+
   &.align {
     &--left {
       text-align: left p {
@@ -100,9 +146,11 @@
   &__listInline {
     display: flex;
     flex-direction: column;
+    min-height: 50px;
     @include mq-start-from(tablet) {
       flex-direction: row;
       margin-bottom: $gap;
+      min-height: initial;
     }
     li {
       position: relative;

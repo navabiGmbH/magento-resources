@@ -40,7 +40,17 @@
       flex-direction: column;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  height: 550px; }
+  height: auto; }
+  @media (min-width: 991px) {
+    .servicePage__boxContent {
+      height: 490px; } }
+  .servicePage__boxContent textarea {
+    border: 1px solid #000; }
+  .servicePage__boxContent .servicePage__CheckoutBox {
+    width: 100%; }
+    .servicePage__boxContent .servicePage__CheckoutBox div {
+      margin-top: 0;
+      margin-bottom: 10px; }
 
 .servicePage--affiliate .servicePage__flexBoxes--box.big {
   display: -ms-flexbox;
@@ -52,6 +62,29 @@
 
 .servicePage--affiliate .moreinfo {
   margin: 15px 0 6px; }
+
+.servicePage--affiliate .servicePage__flexBoxes--box.big {
+  max-width: 100%;
+  width: 100%; }
+  @media (min-width: 991px) {
+    .servicePage--affiliate .servicePage__flexBoxes--box.big {
+      max-width: 55%;
+      width: 55%; } }
+
+.servicePage--affiliate .servicePage__flexBoxes--box.small {
+  display: none; }
+  @media (min-width: 991px) {
+    .servicePage--affiliate .servicePage__flexBoxes--box.small {
+      max-width: 40%;
+      width: 40%; } }
+
+.servicePage.newsletterSize__emailFormWrapper {
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  @media (min-width: 991px) {
+    .servicePage.newsletterSize__emailFormWrapper {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
 
 .servicePage.newsletterSize__emailTitleText {
   top: 0;
@@ -80,12 +113,14 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  min-height: 50px; }
   @media (min-width: 991px) {
     .servicePage__listInline {
       -ms-flex-direction: row;
           flex-direction: row;
-      margin-bottom: 16px; } }
+      margin-bottom: 16px;
+      min-height: initial; } }
   .servicePage__listInline li {
     position: relative; }
   .servicePage__listInline li.listitem:before {
