@@ -218,7 +218,7 @@
 }
 
 .block__imagesfig {
-  max-width: 100%;
+  max-width: 100% !important;
   display: flex;
   flex-wrap: wrap;
 
@@ -229,6 +229,16 @@
     margin: 2px;
     @include mq-start-from(mobile) {
       max-width: 45%;
+    }
+
+    &::nth-child(3) {
+      padding: 0;
+      width: auto;
+    }
+
+    &::nth-child(4) {
+      padding: 0;
+      width: auto;
     }
   }
 }
