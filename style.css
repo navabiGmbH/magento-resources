@@ -298,3 +298,5 @@
     @media (max-width: 767px) {
       .cms-noroute-index .mainContent .notfound .htmlTemplate__section {
         padding: 16px; } }
+  .cms-noroute-index .mainContent .notfound .templateHeadline {
+    margin-bottom: 16px; }
