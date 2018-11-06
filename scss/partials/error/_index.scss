@@ -6,6 +6,7 @@
   .mainContent {
     margin-top: 32px;
     margin-bottom: 32px;
+    padding-top: 0;
 
     @include breakpoint(tablet) {
       margin-top: 16px;

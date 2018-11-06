@@ -278,7 +278,8 @@
 
 .cms-noroute-index .mainContent {
   margin-top: 32px;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  padding-top: 0; }
   @media (max-width: 991px) {
     .cms-noroute-index .mainContent {
       margin-top: 16px;
