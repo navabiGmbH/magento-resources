@@ -305,3 +305,12 @@
         padding: 16px; } }
   .cms-noroute-index .notfound .templateHeadline {
     margin-bottom: 16px; }
+
+.templateCards__singleTitle {
+  top: 72%; }
+  @media (max-width: 991px) {
+    .templateCards__singleTitle {
+      width: auto; } }
+  @media (max-width: 767px) {
+    .templateCards__singleTitle {
+      top: 72%; } }
