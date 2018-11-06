@@ -340,3 +340,21 @@
 @media (min-width: 1600px) {
   .magento .top-container .container {
     width: 1170px; } }
+
+@media (max-width: 1200px) {
+  .mainNav__subMenuContent .image img {
+    height: 75%; } }
+
+@media (max-width: 1200px) {
+  .mainNav__subMenuContent .image {
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 372px;
+    overflow: hidden; } }
+
+@media (max-width: 991px) {
+  .mainNav__subMenuContent .image {
+    width: 230px;
+    height: auto; } }

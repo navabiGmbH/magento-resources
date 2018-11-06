@@ -32,3 +32,25 @@
     }
   }
 }
+
+.mainNav__subMenuContent .image img {
+  @include breakpoint(desktop) {
+    height: 75%;
+  }
+}
+
+.mainNav__subMenuContent .image {
+  @include breakpoint(desktop) {
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 372px;
+    overflow: hidden;
+  }
+
+  @include breakpoint(tablet) {
+    width: 230px;
+    height: auto;
+  }
+}
