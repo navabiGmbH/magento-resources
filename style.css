@@ -86,6 +86,9 @@
 .servicePage--datenschutzer p {
   padding: 0 0 0 16px; }
 
+.servicePage--datenschutzer li {
+  list-style: disc inside; }
+
 .servicePage--impressum p {
   padding: 0 0 0 16px; }
 
