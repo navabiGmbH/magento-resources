@@ -229,3 +229,23 @@
   .main-footer,
   .no__print {
     display: none; } }
+
+.categorypath-modeberatung .top-container,
+.categorypath-a-typ .top-container,
+.categorypath-h-typ .top-container,
+.categorypath-o-typ .top-container,
+.categorypath-v-typ .top-container,
+.categorypath-x-typ .top-container {
+  margin-top: 20px; }
+  @media (max-width: 767px) {
+    .categorypath-modeberatung .top-container,
+    .categorypath-a-typ .top-container,
+    .categorypath-h-typ .top-container,
+    .categorypath-o-typ .top-container,
+    .categorypath-v-typ .top-container,
+    .categorypath-x-typ .top-container {
+      margin-top: 0; } }
+
+@media (max-width: 767px) {
+  .categorypath-modeberatung .figureTypeOverview__hgroup {
+    margin-top: 0; } }
