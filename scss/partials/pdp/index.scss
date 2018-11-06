@@ -1,0 +1,5 @@
+.item-details-trustbar__item.item-details-trustbar__item--third {
+  @include breakpoint(mobile) {
+    min-width: 0;
+  }
+}

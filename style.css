@@ -232,3 +232,79 @@
   .main-footer,
   .no__print {
     display: none; } }
+
+.categorypath-modeberatung .top-container,
+.categorypath-a-typ .top-container,
+.categorypath-h-typ .top-container,
+.categorypath-o-typ .top-container,
+.categorypath-v-typ .top-container,
+.categorypath-x-typ .top-container,
+.categorypath-trends-looks .top-container {
+  margin-top: 20px; }
+  @media (max-width: 767px) {
+    .categorypath-modeberatung .top-container,
+    .categorypath-a-typ .top-container,
+    .categorypath-h-typ .top-container,
+    .categorypath-o-typ .top-container,
+    .categorypath-v-typ .top-container,
+    .categorypath-x-typ .top-container,
+    .categorypath-trends-looks .top-container {
+      margin-top: 0; } }
+
+@media (max-width: 767px) {
+  .categorypath-modeberatung .figureTypeOverview__hgroup {
+    margin-top: 0; } }
+
+@media (min-width: 767px) {
+  .howTo {
+    background: url(https://navabi.imgix.net/img/filterset/07_Modeberatung/2016/fashionadvice/01/fashion-advice-bg-02b.jpg) 100% 0 no-repeat;
+    background-size: cover; } }
+
+.checkout-cart-index section.breadcrumbs {
+  display: none; }
+
+@media (max-width: 767px) {
+  .customer-account-login input[type="email"],
+  .customer-account-login input[type="password"],
+  .customer-account-create input[type="email"],
+  .customer-account-create input[type="password"],
+  .customer-account-create input[type="text"],
+  .c-search2.on-mobile.visible-xs {
+    font-size: 16px; } }
+
+@media (max-width: 767px) {
+  .item-details-trustbar__item.item-details-trustbar__item--third {
+    min-width: 0; } }
+
+.cms-noroute-index .breadcrumbs {
+  display: none; }
+
+.cms-noroute-index .mainContent {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-top: 0; }
+  @media (max-width: 991px) {
+    .cms-noroute-index .mainContent {
+      margin-top: 16px;
+      margin-bottom: 16px; } }
+
+.cms-noroute-index .notfound {
+  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center top no-repeat; }
+  @media (max-width: 767px) {
+    .cms-noroute-index .notfound {
+      background: #f0ebef; } }
+  .cms-noroute-index .notfound .container {
+    padding: 0;
+    max-width: 100%;
+    width: 100%; }
+  .cms-noroute-index .notfound .fontBig {
+    margin-top: 16px; }
+  .cms-noroute-index .notfound .htmlTemplate__section {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 60px; }
+    @media (max-width: 767px) {
+      .cms-noroute-index .notfound .htmlTemplate__section {
+        padding: 16px; } }
+  .cms-noroute-index .notfound .templateHeadline {
+    margin-bottom: 16px; }

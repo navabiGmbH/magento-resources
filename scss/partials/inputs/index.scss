@@ -1,0 +1,10 @@
+@include breakpoint(mobile) {
+  .customer-account-login input[type="email"],
+  .customer-account-login input[type="password"],
+  .customer-account-create input[type="email"],
+  .customer-account-create input[type="password"],
+  .customer-account-create input[type="text"],
+  .c-search2.on-mobile.visible-xs {
+    font-size: 16px;
+  }
+}
