@@ -235,7 +235,8 @@
 .categorypath-h-typ .top-container,
 .categorypath-o-typ .top-container,
 .categorypath-v-typ .top-container,
-.categorypath-x-typ .top-container {
+.categorypath-x-typ .top-container,
+.categorypath-trends-looks .top-container {
   margin-top: 20px; }
   @media (max-width: 767px) {
     .categorypath-modeberatung .top-container,
@@ -243,7 +244,8 @@
     .categorypath-h-typ .top-container,
     .categorypath-o-typ .top-container,
     .categorypath-v-typ .top-container,
-    .categorypath-x-typ .top-container {
+    .categorypath-x-typ .top-container,
+    .categorypath-trends-looks .top-container {
       margin-top: 0; } }
 
 @media (max-width: 767px) {
