@@ -1,0 +1,56 @@
+.mainNav__subMenuContent .is-emptyheading {
+  display: block;
+  height: 14px;
+
+  @include breakpoint(tablet) {
+    height: 25px;
+  }
+}
+
+.magento .top-container {
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .container {
+      width: 1170px;
+    }
+  }
+}
+
+.mainNav__subMenuContent .image img {
+  @include breakpoint(desktop) {
+    height: 75%;
+  }
+}
+
+.mainNav__subMenuContent .image {
+  @include breakpoint(desktop) {
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 372px;
+    overflow: hidden;
+  }
+
+  @include breakpoint(tablet) {
+    width: 230px;
+    height: auto;
+  }
+}

@@ -311,3 +311,53 @@
         padding: 16px; } }
   .cms-noroute-index .notfound .templateHeadline {
     margin-bottom: 16px; }
+
+.templateCards__singleTitle {
+  top: 72%; }
+  @media (max-width: 991px) {
+    .templateCards__singleTitle {
+      width: auto; } }
+  @media (max-width: 767px) {
+    .templateCards__singleTitle {
+      top: 72%; } }
+
+.mainNav__subMenuContent .is-emptyheading {
+  display: block;
+  height: 14px; }
+  @media (max-width: 991px) {
+    .mainNav__subMenuContent .is-emptyheading {
+      height: 25px; } }
+
+@media (min-width: 768px) {
+  .magento .top-container .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .magento .top-container .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .magento .top-container .container {
+    width: 1170px; } }
+
+@media (min-width: 1600px) {
+  .magento .top-container .container {
+    width: 1170px; } }
+
+@media (max-width: 1200px) {
+  .mainNav__subMenuContent .image img {
+    height: 75%; } }
+
+@media (max-width: 1200px) {
+  .mainNav__subMenuContent .image {
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 372px;
+    overflow: hidden; } }
+
+@media (max-width: 991px) {
+  .mainNav__subMenuContent .image {
+    width: 230px;
+    height: auto; } }
