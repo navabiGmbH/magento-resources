@@ -1,0 +1,20 @@
+.categorypath-modeberatung,
+.categorypath-a-typ,
+.categorypath-h-typ,
+.categorypath-o-typ,
+.categorypath-v-typ,
+.categorypath-x-typ {
+  .top-container {
+    margin-top: 20px;
+
+    @include breakpoint(mobile) {
+      margin-top: 0;
+    }
+  }
+}
+
+.categorypath-modeberatung .figureTypeOverview__hgroup {
+  @include breakpoint(mobile) {
+    margin-top: 0;
+  }
+}
