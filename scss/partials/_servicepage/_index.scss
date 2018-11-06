@@ -22,7 +22,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 220px;
+        min-height: 180px;
+      }
+
+      .cta {
+        max-width: 200px;
+        font-weight: bold;
       }
     }
   }
@@ -214,7 +219,7 @@
   border-radius: 3px;
   border: 1px solid #707070;
   display: block;
-  height: auto;
+  height: 35px;
   margin: 0 auto;
   padding: 6px;
   text-align: center;
@@ -249,11 +254,17 @@
     &:nth-child(3) {
       padding: 0;
       width: auto;
+      @include mq-start-from(mobile) {
+        width: 45px;
+      }
     }
 
     &:nth-child(4) {
       padding: 0;
       width: auto;
+      @include mq-start-from(mobile) {
+        width: 45px;
+      }
     }
   }
 }
