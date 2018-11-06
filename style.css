@@ -290,7 +290,11 @@
     .cms-noroute-index .notfound {
       background: #f0ebef; } }
   .cms-noroute-index .notfound .container {
-    padding: 0; }
+    padding: 0;
+    max-width: 100%;
+    width: 100%; }
+  .cms-noroute-index .notfound .fontBig {
+    margin-top: 16px; }
   .cms-noroute-index .notfound .htmlTemplate__section {
     margin: 0 auto;
     max-width: 1000px;
