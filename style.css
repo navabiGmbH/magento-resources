@@ -285,7 +285,7 @@
       margin-bottom: 16px; } }
 
 .cms-noroute-index .notfound {
-  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center no-repeat; }
+  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center top no-repeat; }
   @media (max-width: 767px) {
     .cms-noroute-index .notfound {
       background: #f0ebef; } }

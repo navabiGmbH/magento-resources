@@ -15,7 +15,7 @@
 
   .notfound {
     background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg")
-      center no-repeat;
+      center top no-repeat;
 
     @include breakpoint(mobile) {
       background: #f0ebef;
