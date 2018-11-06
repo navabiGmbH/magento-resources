@@ -20,7 +20,7 @@
       flex-direction: column;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  min-height: 180px; }
+  min-height: auto; }
 
 .servicePage__moreInfo--box .cta {
   max-width: 200px;
