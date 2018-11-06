@@ -268,3 +268,7 @@
   .customer-account-create input[type="text"],
   .c-search2.on-mobile.visible-xs {
     font-size: 16px; } }
+
+@media (max-width: 767px) {
+  .item-details-trustbar__item.item-details-trustbar__item--third {
+    min-width: 0; } }
