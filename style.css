@@ -272,3 +272,29 @@
 @media (max-width: 767px) {
   .item-details-trustbar__item.item-details-trustbar__item--third {
     min-width: 0; } }
+
+.cms-noroute-index .mainContent .breadcrumbs {
+  display: none; }
+
+.cms-noroute-index .mainContent .mainContent {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+  @media (max-width: 991px) {
+    .cms-noroute-index .mainContent .mainContent {
+      margin-top: 16px;
+      margin-bottom: 16px; } }
+
+.cms-noroute-index .mainContent .notfound {
+  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center no-repeat; }
+  @media (max-width: 767px) {
+    .cms-noroute-index .mainContent .notfound {
+      background: #f0ebef; } }
+  .cms-noroute-index .mainContent .notfound .container {
+    padding: 0; }
+  .cms-noroute-index .mainContent .notfound .htmlTemplate__section {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 60px; }
+    @media (max-width: 767px) {
+      .cms-noroute-index .mainContent .notfound .htmlTemplate__section {
+        padding: 16px; } }

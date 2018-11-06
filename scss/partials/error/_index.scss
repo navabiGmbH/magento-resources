@@ -1,0 +1,38 @@
+.cms-noroute-index .mainContent {
+  .breadcrumbs {
+    display: none;
+  }
+
+  .mainContent {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    @include breakpoint(tablet) {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .notfound {
+    background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg")
+      center no-repeat;
+
+    @include breakpoint(mobile) {
+      background: #f0ebef;
+    }
+
+    .container {
+      padding: 0;
+    }
+
+    .htmlTemplate__section {
+      margin: 0 auto;
+      max-width: 1000px;
+      padding: 60px;
+
+      @include breakpoint(mobile) {
+        padding: 16px;
+      }
+    }
+  }
+}
