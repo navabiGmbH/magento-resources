@@ -317,3 +317,26 @@
   @media (max-width: 767px) {
     .templateCards__singleTitle {
       top: 72%; } }
+
+.mainNav__subMenuContent .is-emptyheading {
+  display: block;
+  height: 14px; }
+  @media (max-width: 991px) {
+    .mainNav__subMenuContent .is-emptyheading {
+      height: 25px; } }
+
+@media (min-width: 768px) {
+  .magento .top-container .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .magento .top-container .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .magento .top-container .container {
+    width: 1170px; } }
+
+@media (min-width: 1600px) {
+  .magento .top-container .container {
+    width: 1170px; } }
