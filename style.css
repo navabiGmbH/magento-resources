@@ -134,6 +134,8 @@
 .servicePage__contactlist li {
   padding-right: 20px;
   word-break: break-word; }
+  .servicePage__contactlist li a {
+    color: #000; }
 
 .servicePage__contactlist li.listitem:before {
   width: 30px;
