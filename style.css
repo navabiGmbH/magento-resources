@@ -297,7 +297,8 @@ input[name="btn_send_comment"] {
     background-size: cover; } }
 
 .magento .top-container .fashionAdvice {
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .checkout-cart-index section.breadcrumbs {
   display: none; }
