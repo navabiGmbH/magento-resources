@@ -290,6 +290,9 @@
     background: url(https://navabi.imgix.net/img/filterset/07_Modeberatung/2016/fashionadvice/01/fashion-advice-bg-02b.jpg) 100% 0 no-repeat;
     background-size: cover; } }
 
+.magento .top-container .fashionAdvice {
+  margin-top: 0; }
+
 .checkout-cart-index section.breadcrumbs {
   display: none; }
 
