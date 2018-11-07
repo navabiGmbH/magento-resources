@@ -151,6 +151,8 @@
 .servicePage__contactlist li {
   padding-right: 20px;
   word-break: break-word; }
+  .servicePage__contactlist li a {
+    color: #000; }
 
 .servicePage__contactlist li.listitem:before {
   width: 30px;
@@ -208,6 +210,11 @@
 .servicePage--datenschutzer h2.servicePage__title,
 .servicePage--datenschutzer h3.servicePage__title {
   font-size: 16px; }
+
+.servicePage__boxContent
+.servicePage__CheckoutBox
+input[name="btn_send_comment"] {
+  font-weight: bold; }
 
 .servicePage h1,
 .servicePage h2,
@@ -277,16 +284,6 @@
         .block__imagesfig span.imgBorder:nth-child(4) {
           width: 51px;
           max-width: 51px; } }
-
-@media print {
-  .sidebar,
-  header,
-  footer,
-  .breadcrumbs,
-  .FooterNewsletter,
-  .main-footer,
-  .no__print {
-    display: none; } }
 
 .magento.catalog-category-view .top-container {
   margin-top: 0; }
