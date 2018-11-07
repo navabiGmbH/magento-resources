@@ -79,6 +79,8 @@
 
 .servicePage--affiliate .moreinfo {
   margin: 15px 0 6px; }
+  .servicePage--affiliate .moreinfo p {
+    margin: 0; }
 
 .servicePage--affiliate .servicePage__flexBoxes--box.big {
   max-width: 100%;
