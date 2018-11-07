@@ -1,10 +1,14 @@
-.categorypath-modeberatung,
-.categorypath-a-typ,
-.categorypath-h-typ,
-.categorypath-o-typ,
-.categorypath-v-typ,
-.categorypath-x-typ,
-.categorypath-trends-looks {
+.magento.catalog-category-view .top-container {
+  margin-top: 0;
+}
+
+.magento.categorypath-modeberatung,
+.magento.categorypath-a-typ,
+.magento.categorypath-h-typ,
+.magento.categorypath-o-typ,
+.magento.categorypath-v-typ,
+.magento.categorypath-x-typ,
+.magento.categorypath-trends-looks {
   .top-container {
     margin-top: 20px;
 
@@ -14,7 +18,7 @@
   }
 }
 
-.categorypath-modeberatung .figureTypeOverview__hgroup {
+.magento.categorypath-modeberatung .figureTypeOverview__hgroup {
   @include breakpoint(mobile) {
     margin-top: 0;
   }
