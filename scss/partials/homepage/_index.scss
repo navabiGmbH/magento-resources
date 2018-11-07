@@ -1,0 +1,5 @@
+@include breakpoint(mobile) {
+    .magento .newHomepage__section {
+        padding: 0;
+    }
+}
