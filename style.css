@@ -260,26 +260,29 @@
   .no__print {
     display: none; } }
 
-.categorypath-modeberatung .top-container,
-.categorypath-a-typ .top-container,
-.categorypath-h-typ .top-container,
-.categorypath-o-typ .top-container,
-.categorypath-v-typ .top-container,
-.categorypath-x-typ .top-container,
-.categorypath-trends-looks .top-container {
+.magento.catalog-category-view .top-container {
+  margin-top: 0; }
+
+.magento.categorypath-modeberatung .top-container,
+.magento.categorypath-a-typ .top-container,
+.magento.categorypath-h-typ .top-container,
+.magento.categorypath-o-typ .top-container,
+.magento.categorypath-v-typ .top-container,
+.magento.categorypath-x-typ .top-container,
+.magento.categorypath-trends-looks .top-container {
   margin-top: 20px; }
   @media (max-width: 767px) {
-    .categorypath-modeberatung .top-container,
-    .categorypath-a-typ .top-container,
-    .categorypath-h-typ .top-container,
-    .categorypath-o-typ .top-container,
-    .categorypath-v-typ .top-container,
-    .categorypath-x-typ .top-container,
-    .categorypath-trends-looks .top-container {
+    .magento.categorypath-modeberatung .top-container,
+    .magento.categorypath-a-typ .top-container,
+    .magento.categorypath-h-typ .top-container,
+    .magento.categorypath-o-typ .top-container,
+    .magento.categorypath-v-typ .top-container,
+    .magento.categorypath-x-typ .top-container,
+    .magento.categorypath-trends-looks .top-container {
       margin-top: 0; } }
 
 @media (max-width: 767px) {
-  .categorypath-modeberatung .figureTypeOverview__hgroup {
+  .magento.categorypath-modeberatung .figureTypeOverview__hgroup {
     margin-top: 0; } }
 
 @media (min-width: 767px) {
@@ -389,6 +392,3 @@
 @media (max-width: 767px) {
   .magento .newHomepage__section {
     padding: 0; } }
-
-.magento .top-container {
-  margin-top: 0; }
