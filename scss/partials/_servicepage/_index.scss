@@ -244,6 +244,11 @@
   }
 }
 
+.servicePage--datenschutzer h2.servicePage__title,
+.servicePage--datenschutzer h3.servicePage__title {
+  font-size: get-font-size(big, mobile);
+}
+
 .servicePage h1,
 .servicePage h2,
 .servicePage h3,
