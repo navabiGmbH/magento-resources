@@ -389,3 +389,6 @@
 @media (max-width: 767px) {
   .magento .newHomepage__section {
     padding: 0; } }
+
+.magento .top-container {
+  margin-top: 0; }

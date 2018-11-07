@@ -7,3 +7,9 @@
 @import "template/index";
 @import "menu/index";
 @import "homepage/index";
+
+// temp fix
+
+.magento .top-container {
+    margin-top: 0;
+}
