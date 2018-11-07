@@ -157,6 +157,9 @@
 .servicePage--delivery a {
   text-decoration: none !important; }
 
+.servicePage__subtitle--small {
+  font-size: 16px; }
+
 .servicePage table {
   display: inline-table; }
 

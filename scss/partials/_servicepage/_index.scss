@@ -208,6 +208,12 @@
     }
   }
 
+  &__subtitle {
+    &--small {
+      font-size: get-font-size(big, mobile);
+    }
+  }
+
   table {
     display: inline-table;
   }
