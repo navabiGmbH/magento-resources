@@ -51,7 +51,7 @@
   border: 2px solid #6892a4; }
   @media (min-width: 991px) {
     .servicePage__boxContent {
-      height: 400px; } }
+      height: 420px; } }
   .servicePage__boxContent textarea {
     border: 1px solid #000; }
   .servicePage__boxContent .servicePage__CheckoutBox {
@@ -73,6 +73,9 @@
   .servicePage--affiliate .servicePage__flexBoxes--box.big.justifyend {
     -ms-flex-pack: end;
         justify-content: end; }
+
+.servicePage--affiliate .servicePage__flexBoxes--box li {
+  margin: 0 5px 6px 15px; }
 
 .servicePage--affiliate .moreinfo {
   margin: 15px 0 6px; }
@@ -174,6 +177,9 @@
 
 .servicePage table {
   display: inline-table; }
+
+.servicePage__bannertop {
+  background-position: top right; }
 
 .servicePage h1,
 .servicePage h2,

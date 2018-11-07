@@ -58,7 +58,7 @@
     border: 2px solid #6892a4;
 
     @include mq-start-from(tablet) {
-      height: 400px;
+      height: 420px;
     }
 
     textarea {
@@ -91,6 +91,10 @@
             &.justifyend {
               justify-content: end;
             }
+          }
+
+          li {
+            margin: 0 5px 6px 15px;
           }
         }
       }
@@ -233,6 +237,10 @@
 
   table {
     display: inline-table;
+  }
+
+  &__bannertop {
+    background-position: top right;
   }
 }
 
