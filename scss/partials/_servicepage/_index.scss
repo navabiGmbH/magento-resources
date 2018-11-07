@@ -255,7 +255,11 @@
 .servicePage--datenschutzer h3.servicePage__title {
   font-size: get-font-size(big, mobile);
 }
-
+.servicePage__boxContent
+  .servicePage__CheckoutBox
+  input[name="btn_send_comment"] {
+  font-weight: bold;
+}
 .servicePage h1,
 .servicePage h2,
 .servicePage h3,
@@ -324,17 +328,5 @@
         max-width: 51px;
       }
     }
-  }
-}
-
-@media print {
-  .sidebar,
-  header,
-  footer,
-  .breadcrumbs,
-  .FooterNewsletter,
-  .main-footer,
-  .no__print {
-    display: none;
   }
 }
