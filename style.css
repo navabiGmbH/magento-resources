@@ -99,6 +99,27 @@
       max-width: 40%;
       width: 40%; } }
 
+.servicePage--affiliate .newsletterSize__email {
+  margin: 30px 0 20px 0; }
+
+.servicePage__boxInfo div p {
+  margin-bottom: 0; }
+  @media (min-width: 991px) {
+    .servicePage__boxInfo div p {
+      margin-bottom: 16px; } }
+
+@media (min-width: 767px) {
+  .servicePage__boxInfo div {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%; } }
+
+@media (min-width: 991px) {
+  .servicePage__boxInfo div {
+    display: block; } }
+
 .servicePage--datenschutzer p {
   padding: 0 0 0 16px; }
 
@@ -181,6 +202,9 @@
 
 .servicePage--delivery a {
   text-decoration: none !important; }
+
+.servicePage--delivery.vertical td {
+  text-align: center; }
 
 .servicePage__subtitle--small {
   font-size: 16px; }
@@ -265,6 +289,14 @@ input[name="btn_send_comment"] {
         .block__imagesfig span.imgBorder:nth-child(4) {
           width: 51px;
           max-width: 51px; } }
+
+@media (min-width: 767px) {
+  .servicePage__stepsToReturn--box.nextStep div:after {
+    top: 103px; } }
+
+@media (min-width: 767px) {
+  .servicePage__stepsToReturn--box.nextStep div:after {
+    top: 105px; } }
 
 .magento.catalog-category-view .top-container {
   margin-top: 0; }
