@@ -294,7 +294,7 @@ input[name="btn_send_comment"] {
   .servicePage__stepsToReturn--box.nextStep div:after {
     top: 103px; } }
 
-@media (min-width: 767px) {
+@media (min-width: 991px) {
   .servicePage__stepsToReturn--box.nextStep div:after {
     top: 105px; } }
 
