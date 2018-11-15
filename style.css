@@ -3,3 +3,461 @@
  * Colors
  *
  */
+.sidebar .cms-menu li a {
+  font: 14px;
+  font-weight: normal; }
+
+.cms-menu > li > ul > li:not(:first-child) {
+  margin-top: 0 !important; }
+
+.cms-menu > li li {
+  margin-bottom: 8px !important; }
+
+.servicePage__moreInfo--box .sameHeight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: auto; }
+
+.servicePage__moreInfo--box .cta {
+  max-width: 200px;
+  font-weight: bold; }
+
+.servicePage__moreInfo--box h2 {
+  font-size: 16px; }
+
+.servicePage__threeboxes h3 {
+  text-align: left;
+  margin: 0; }
+
+.servicePage__threeboxes p {
+  padding: 16px 30px 16px 0;
+  text-align: left; }
+
+.servicePage__howmeasures table {
+  display: inline-table; }
+
+.servicePage__boxContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+  border: 2px solid #6892a4; }
+  @media (min-width: 991px) {
+    .servicePage__boxContent {
+      height: 420px; } }
+  .servicePage__boxContent textarea {
+    border: 1px solid #000; }
+  .servicePage__boxContent .servicePage__CheckoutBox {
+    width: 100%; }
+    .servicePage__boxContent .servicePage__CheckoutBox input,
+    .servicePage__boxContent .servicePage__CheckoutBox textarea {
+      margin-top: 10px; }
+    .servicePage__boxContent .servicePage__CheckoutBox div {
+      margin-top: 0;
+      margin-bottom: 10px; }
+
+.servicePage--affiliate .servicePage__flexBoxes--box.big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .servicePage--affiliate .servicePage__flexBoxes--box.big.justifyend {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end; }
+
+.servicePage--affiliate .servicePage__flexBoxes--box li {
+  margin: 0 5px 6px 15px;
+  line-height: 1.45; }
+
+.servicePage--affiliate .moreinfo {
+  margin: 15px 0 6px; }
+  .servicePage--affiliate .moreinfo p {
+    margin: 0; }
+
+.servicePage--affiliate .servicePage__flexBoxes--box.big {
+  max-width: 100%;
+  width: 100%; }
+  @media (min-width: 991px) {
+    .servicePage--affiliate .servicePage__flexBoxes--box.big {
+      max-width: 55%;
+      width: 55%; } }
+
+.servicePage--affiliate .servicePage__flexBoxes--box.small {
+  display: none; }
+  @media (min-width: 991px) {
+    .servicePage--affiliate .servicePage__flexBoxes--box.small {
+      display: block;
+      max-width: 40%;
+      width: 40%; } }
+
+.servicePage--affiliate .newsletterSize__email {
+  margin: 30px 0 20px 0; }
+
+.servicePage__boxInfo div p {
+  margin-bottom: 0; }
+  @media (min-width: 991px) {
+    .servicePage__boxInfo div p {
+      margin-bottom: 16px; } }
+
+@media (min-width: 767px) {
+  .servicePage__boxInfo div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%; } }
+
+@media (min-width: 991px) {
+  .servicePage__boxInfo div {
+    display: block; } }
+
+.servicePage--datenschutzer p {
+  padding: 0 0 0 16px; }
+
+.servicePage--datenschutzer li {
+  list-style: disc inside; }
+
+.servicePage--impressum p {
+  padding: 0 0 0 16px; }
+
+.servicePage.newsletterSize__emailFormWrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 991px) {
+    .servicePage.newsletterSize__emailFormWrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.servicePage.newsletterSize__emailTitleText {
+  top: 0;
+  margin-left: 0; }
+
+.servicePage.align--left {
+  text-align: left p;
+    text-align-text-align: left; }
+
+.servicePage.align--right {
+  text-align: right p;
+    text-align-text-align: right; }
+
+.servicePage.align--center {
+  text-align: center p;
+    text-align-text-align: center; }
+
+.servicePage__contactlist li {
+  padding-right: 20px;
+  word-break: break-word; }
+  .servicePage__contactlist li a {
+    color: #000; }
+
+.servicePage__contactlist li.listitem:before {
+  width: 30px;
+  height: 33px; }
+
+.servicePage__contactlist li.information:before {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAiCAIAAACx0EyoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTc0RUI0ODJDOTcwMTFFODg1RTRCMEM4MEQ4QjVBOTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTc0RUI0ODNDOTcwMTFFODg1RTRCMEM4MEQ4QjVBOTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NzRFQjQ4MEM5NzAxMUU4ODVFNEIwQzgwRDhCNUE5MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1NzRFQjQ4MUM5NzAxMUU4ODVFNEIwQzgwRDhCNUE5MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnqrBKcAAAK/SURBVHjaYvz//z8DLQETA40BC37pLz9+PH/78cmb949evQeSXOys337+lhUVBCMhCUF+Hk52/CYw4gmi1YfOXH30nJeTQ0ZEUE5MEEgCDX38+t3j1+/B6N23H7+05CVDbI3x2fAfG3jw8k3lvHV7zl//TwjsPnetesH6R6/e4lKAxYL1R8+3Ld/29tOX/8SB1x8+tyzbuvH4Bayy6EG06uAZDnZWPwt9UiNzw7Hzf//9C7YxxhcHG45dYGZi9CXddDzaEcn04au31x89J9t0IAiwMrh4/8mT1++xRzIwVokPd1zg1YdPNQs2YIkDYIoU4uNxNtDA48CKees+fv0OZEzPjcajDJiuPn37EWxjhAiiL99/XH30DL/pL95/gpgOBHsv3MCj0tVI6+K9J99+/kJY8PzdR15OTvzhKyHIJy8mDGTwc3PidwoQ8HKxA/M/oqgAlgHAXEowDivCPYiMbVkRocdv3ilLiUItAJYzajJiBLVlTl4KYdTH+AI9hEelnJjQnWevEEFEpA+IB8Ci8DEssYIsAJaRwFKMqhYIAc1EWAAsgYFFIxUtABW0P38jLED2EZUseA80k4YWPHr1DhjPyBYIUT2I4JHKBM5E/PCMRxXw5cdPKWF+hAXAelVLThJYf1HF9J1nrxooyXKysaGXpsCaD1g3UViavnz/sXbhRuxVJrBeBdZ8FFrQuGTz0zfvkUWYkHOHrqI0sOYjO3DWHjlrrCovJSyAs+EFrIr//P0HrPnIMv0cEyOTt5kugZYdsJEDrFdblm99/fEzkUYDa7GmpVs42FgDrQ2JbRc9fvUOWPPtOnuVYKDvOHMFGKto4Y6v2YLm64v3HvNycQDLd2DOhDQXIS07YF4FMr7++KmvJIvd4cQ0HYHg+89fz95+BNYeYBMRbVOwfULA3IRI7+RZMASa7zS3ACDAAAuPLvJahr4CAAAAAElFTkSuQmCC"); }
+
+.servicePage__listInline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 50px; }
+  @media (min-width: 991px) {
+    .servicePage__listInline {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      margin-bottom: 20px;
+      min-height: initial; } }
+  .servicePage__listInline li {
+    position: relative;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 20px 30px 0; }
+    @media (min-width: 991px) {
+      .servicePage__listInline li {
+        margin: 0 20px 0 0; } }
+  .servicePage__listInline li.listitem:before {
+    left: 20px; }
+  .servicePage__listInline li.listitem.phone:before {
+    background: url("https://navabi.de/img-20160418/filterset/18_about-us/2016/02/serviceseiten/phone.png") no-repeat 0 0 !important;
+    height: 30px;
+    width: 33px; }
+  .servicePage__listInline li.listitem.press:before {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAABPZJREFUSA2FlssvnV0UxheOW0VJiGgbEhMhBCGEtGk00hliUvEfGJr4ExiKQdPExEzCgJFExKWNAZW6tOjENUh6c4+2bi3f57e+PCcvX4+u5D17v3uv9ay1nrX2fk/UP9did8jV1ZXvRkVF+Yi65ox6F4xGlH/8+GH379+32xiyRyean0iCYXR0tDsUSPAdZzzs8VxeXtr5+bl9/frVxsbGrLOz037+/Ok62CFB57yH+IkkGMmJHCvDmJgYd8r6r1+/bH9/37a3t21+ft4GBwdtenrajo6OLD8/3xobG//HgnxGXQNGLIGci+qw0TX1rP3+/dtWVlbsw4cPNjc3Z8PDw7a6uup7BEVwdXV11tvba7GxsW6OHeuSOwOQEoFAsZweHh6605mZGXv79q29e/fOGVCgygmW0tLSbGhoyEpLS51NMIMB3FkCgATKSBCfP382HL9//942NjYsPj7eHj9+HKYYcB5s6YmEhAQ7ODi40QdKjPGvDKjByAZQmgpAKEZwhiMFyJp00WfOSUhPTw8zgK7EGcAJIgM6mZoBPjk5abOzs3bv3j13hDNAsaEHYABAHt7ZQyeS4EMMMQ+RiRrk27dv3sE9PT328uVLKyws9OPU0dERBsVIgjMeNZz2GDWX7u0xFAp5wNdjyGuJw4GBAa8xxqL14uLCTk5OPMi4uDh3hlN0yIR93k9PT31kfpeILemHzs7O7PXr19bV1eVgGMuBAqGRqqurrba21rEBEXP0xPHxsbW3t1txcbE1NDRYSkqKBxcpkC9fvlh3d7ft7OxYiBpWVlZaZmambW1tuSG1xIlopERlZWXW3Nwcrrf6hmC5fNra2rxPcnJyvOEiOWcd5pKTk213d9dCAD18+NDq6+u97lBPWXDOngJhjjM1GHPoB0y0cvtxL6Cj4G8HIl3WwYjGGZQ9ffrUj0tQgT0cq2sVEDo4oSe0hkOYU4C3HesdW4SRMoZ0dHJzc628vNzevHnjQFLEAUK0CoZ3BcGcdfZLSkqsqanJUlNTWY4onz59slevXv1XAmWXnZ1tVVVVNjU15V80OcYR98LS0pL19fXdoJYMaNDNzU0PiCBgDWaUwJ+iQEdHP3wVc1tVVFRYVlaWLS8vO+0Yo0wA4+PjfufDGCJGmLPGs7CwYGtra2Fb9v4klOn79+++FaJ2gDEWFRVZQUGBByBDGOLhuPEHg8x40Cc4RgAVKI3JGk8kgSFsHEOZ4ISjCAsTExM3AFR7lYVRFJM5c9YePXrk3/+7SoCfvb09W1xc9KT8GBIJANSlpqbG+vv7w6Byio6cklkwQ0DZg8GWlhY/1kHdIBPgra+vW2trq9/AXgIA2AA0Ly/PH5gBhDX2oUygcq5vALrsj4yM2OjoqPdD0GlwrnLjD9xQsAQAJyUl2fPnz/0oybl0gkDB4PQ9UBIKMKivOYEi2KPvDCgzKT179sz/yQCEkrIPAmOjIGhA9DjK9BBJ3CX8n+C+4STcKAFGAD148MDpUW1ZVxkIIhz9tWOC4y7go0YAL168sIyMDMfB7k/CPym+Hx6AgBkRZSVDscA6OmKBrHHOu3rh48eP/lXkFEhPOBrB4EjzvxIdv4iYyLGyY+QCov48cgYQ+no4OQSADn/Dofdvgg14SPgignpAGXXBkMmTJ088Yj6fugUJDtrJBDCy4k8LdmJGjN4OhnV9RRMTE+1fifWt35UT0AwAAAAASUVORK5CYII=");
+    height: 26px;
+    width: 32px; }
+
+.servicePage__information {
+  font-weight: bold; }
+
+.servicePage--delivery a {
+  text-decoration: none !important; }
+
+.servicePage--delivery.vertical td {
+  text-align: center; }
+
+.servicePage__subtitle--small {
+  font-size: 16px; }
+
+.servicePage table {
+  display: inline-table; }
+
+.servicePage__bannertop {
+  background-position: top right; }
+
+.servicePage--datenschutzer h2.servicePage__title,
+.servicePage--datenschutzer h3.servicePage__title {
+  font-size: 16px; }
+
+.servicePage__boxContent
+.servicePage__CheckoutBox
+input[name="btn_send_comment"] {
+  font-weight: bold; }
+
+.servicePage h1,
+.servicePage h2,
+.servicePage h3,
+.servicePage h4,
+.servicePage p,
+.servicePage strong {
+  clear: both; }
+
+.imgBorder {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+  border: 1px solid #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35px;
+  margin: 0 auto;
+  padding: 6px;
+  text-align: center;
+  width: 45px; }
+  @media (min-width: 991px) {
+    .imgBorder {
+      width: 55px; } }
+  .imgBorder img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+
+.block__imagesfig {
+  max-width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .block__imagesfig span.imgBorder {
+    max-width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 2px;
+    min-height: 35px; }
+    @media (min-width: 767px) {
+      .block__imagesfig span.imgBorder {
+        width: 51px;
+        max-width: 51px; } }
+    .block__imagesfig span.imgBorder:nth-child(3) {
+      padding: 0;
+      width: auto;
+      max-width: 45px;
+      min-height: auto; }
+      @media (min-width: 767px) {
+        .block__imagesfig span.imgBorder:nth-child(3) {
+          width: 51px;
+          max-width: 51px; } }
+    .block__imagesfig span.imgBorder:nth-child(4) {
+      padding: 0;
+      width: auto;
+      max-width: 45px;
+      min-height: auto; }
+      @media (min-width: 767px) {
+        .block__imagesfig span.imgBorder:nth-child(4) {
+          width: 51px;
+          max-width: 51px; } }
+
+@media (min-width: 767px) {
+  .servicePage__stepsToReturn--box.nextStep div:after {
+    top: 103px; } }
+
+@media (min-width: 991px) {
+  .servicePage__stepsToReturn--box.nextStep div:after {
+    top: 105px; } }
+
+.magento.catalog-category-view .top-container {
+  margin-top: 0; }
+
+.magento.categorypath-modeberatung .top-container,
+.magento.categorypath-a-typ .top-container,
+.magento.categorypath-h-typ .top-container,
+.magento.categorypath-o-typ .top-container,
+.magento.categorypath-v-typ .top-container,
+.magento.categorypath-x-typ .top-container,
+.magento.categorypath-trends-looks .top-container {
+  margin-top: 20px; }
+  @media (max-width: 767px) {
+    .magento.categorypath-modeberatung .top-container,
+    .magento.categorypath-a-typ .top-container,
+    .magento.categorypath-h-typ .top-container,
+    .magento.categorypath-o-typ .top-container,
+    .magento.categorypath-v-typ .top-container,
+    .magento.categorypath-x-typ .top-container,
+    .magento.categorypath-trends-looks .top-container {
+      margin-top: 0; } }
+
+@media (max-width: 767px) {
+  .magento.categorypath-modeberatung .figureTypeOverview__hgroup {
+    margin-top: 0; } }
+
+@media (min-width: 767px) {
+  .howTo {
+    background: url(https://navabi.imgix.net/img/filterset/07_Modeberatung/2016/fashionadvice/01/fashion-advice-bg-02b.jpg) 100% 0 no-repeat;
+    background-size: cover; } }
+
+.magento .top-container .fashionAdvice {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.checkout-cart-index section.breadcrumbs {
+  display: none; }
+
+@media (max-width: 767px) {
+  .customer-account-login input[type="email"],
+  .customer-account-login input[type="password"],
+  .customer-account-create input[type="email"],
+  .customer-account-create input[type="password"],
+  .customer-account-create input[type="text"],
+  .c-search2.on-mobile.visible-xs {
+    font-size: 16px; } }
+
+@media (max-width: 767px) {
+  .item-details-trustbar__item.item-details-trustbar__item--third {
+    min-width: 0; } }
+
+.cms-noroute-index .breadcrumbs {
+  display: none; }
+
+.cms-noroute-index .mainContent {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-top: 0; }
+  @media (max-width: 991px) {
+    .cms-noroute-index .mainContent {
+      margin-top: 16px;
+      margin-bottom: 16px; } }
+
+.cms-noroute-index .notfound {
+  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center top no-repeat; }
+  @media (max-width: 767px) {
+    .cms-noroute-index .notfound {
+      background: #f0ebef; } }
+  .cms-noroute-index .notfound .container {
+    padding: 0;
+    max-width: 100%;
+    width: 100%; }
+  .cms-noroute-index .notfound .fontBig {
+    margin-top: 16px; }
+  .cms-noroute-index .notfound .htmlTemplate__section {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 60px; }
+    @media (max-width: 767px) {
+      .cms-noroute-index .notfound .htmlTemplate__section {
+        padding: 16px; } }
+  .cms-noroute-index .notfound .templateHeadline {
+    margin-bottom: 16px; }
+
+.templateCards__singleTitle {
+  top: 72%; }
+  @media (max-width: 991px) {
+    .templateCards__singleTitle {
+      width: auto; } }
+  @media (max-width: 767px) {
+    .templateCards__singleTitle {
+      top: 72%; } }
+
+.mainNav__subMenuContent .is-emptyheading {
+  display: block;
+  height: 14px; }
+  @media (max-width: 991px) {
+    .mainNav__subMenuContent .is-emptyheading {
+      height: 25px; } }
+
+@media (min-width: 768px) {
+  .magento .top-container .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .magento .top-container .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .magento .top-container .container {
+    width: 1170px; } }
+
+@media (min-width: 1600px) {
+  .magento .top-container .container {
+    width: 1170px; } }
+
+@media (max-width: 1200px) {
+  .mainNav__subMenuContent .image img {
+    height: 75%; } }
+
+@media (max-width: 1200px) {
+  .mainNav__subMenuContent .image {
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 372px;
+    overflow: hidden; } }
+
+@media (max-width: 991px) {
+  .mainNav__subMenuContent .image {
+    width: 230px;
+    height: auto; } }
+
+@media (max-width: 767px) {
+  .magento .newHomepage__section {
+    padding: 0; } }
