@@ -433,16 +433,6 @@ input[name="btn_send_comment"] {
   font-size: 14px;
   margin-top: 8px; }
 
-@media (max-width: 1024px) {
-  .figureTypeOverview__contentWrapper {
-    -ms-flex-direction: column;
-        flex-direction: column; }
-  .figureTypeOverview__tilesGroup,
-  .figureTypeOverview__content {
-    width: 100%; }
-  .figureTypeOverview__tile {
-    height: 84px; } }
-
 .figureTypeOverview__tileText {
   font-size: 14px;
   width: 50%; }
@@ -453,3 +443,17 @@ input[name="btn_send_comment"] {
 li.figureTypeSlider__listItem {
   line-height: 1.25;
   margin-bottom: 4px; }
+
+@media (max-width: 1024px) {
+  .figureTypeOverview__contentWrapper {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .figureTypeOverview__tilesGroup,
+  .figureTypeOverview__content {
+    width: 100%; }
+  .figureTypeOverview__tile {
+    height: 84px; } }
+
+@media (max-width: 768px) {
+  .magento.category-modeberatung .top-container {
+    padding: 0 16px; } }
