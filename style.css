@@ -478,3 +478,15 @@ body.magento.cms-zahlarten .mainContent {
   .block__imagesfig {
     -ms-flex-pack: center;
         justify-content: center; } }
+
+@media (min-width: 991px) {
+  .servicePage__boxContent {
+    height: 446px; } }
+
+@media (min-width: 1200px) {
+  .servicePage__boxContent {
+    height: 420px; } }
+
+.magento .newsletterSize__emailFormContainer .FooterNewsletter__formInputGroup {
+  -ms-flex-pack: center;
+      justify-content: center; }
