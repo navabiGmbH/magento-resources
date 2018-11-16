@@ -494,3 +494,10 @@ body.magento.cms-zahlarten .mainContent {
 @media (min-width: 767px) {
   .servicePage__stepsToReturn--box.nextStep figure:before {
     left: -6px; } }
+
+.magento .TBox {
+  margin: 0; }
+
+.magento .container.container--tbox {
+  padding: 0;
+  max-width: 100%; }

@@ -53,3 +53,12 @@ body.magento.cms-zahlarten .mainContent {
   .servicePage__stepsToReturn--box figure {
   }
 }
+
+.magento .TBox {
+  margin: 0;
+}
+
+.magento .container.container--tbox {
+  padding: 0;
+  max-width: 100%;
+}
