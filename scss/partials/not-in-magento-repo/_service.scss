@@ -48,3 +48,8 @@ body.magento.cms-zahlarten .mainContent {
     left: -6px;
   }
 }
+
+@media (max-width: 768px) {
+  .servicePage__stepsToReturn--box figure {
+  }
+}
