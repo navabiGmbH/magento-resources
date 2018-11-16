@@ -457,3 +457,24 @@ li.figureTypeSlider__listItem {
 @media (max-width: 768px) {
   .magento.category-modeberatung .top-container {
     padding: 0 16px; } }
+
+body.magento.cms-zahlarten .mainContent {
+  padding-top: 0; }
+
+.servicePage,
+.cms-menu {
+  margin-top: 0; }
+
+.servicePage--payment ul {
+  margin: 0 0 16px; }
+
+@media (max-width: 767px) {
+  .servicePage {
+    padding: 0 16px; } }
+
+@media (max-width: 767px) {
+  .servicePage--payment .secondUl li figure {
+    max-width: 60px; }
+  .block__imagesfig {
+    -ms-flex-pack: center;
+        justify-content: center; } }
