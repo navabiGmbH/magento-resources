@@ -1,0 +1,28 @@
+body.magento.cms-zahlarten .mainContent {
+  padding-top: 0;
+}
+
+.servicePage,
+.cms-menu {
+  margin-top: 0;
+}
+
+.servicePage--payment ul {
+  margin: 0 0 16px;
+}
+
+.servicePage {
+  @include breakpoint(mobile) {
+    padding: 0 16px;
+  }
+}
+
+@include breakpoint(mobile) {
+  .servicePage--payment .secondUl li figure {
+    max-width: 60px;
+  }
+
+  .block__imagesfig {
+    justify-content: center;
+  }
+}
