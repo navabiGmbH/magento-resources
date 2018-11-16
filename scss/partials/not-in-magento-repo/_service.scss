@@ -42,3 +42,9 @@ body.magento.cms-zahlarten .mainContent {
 .magento .newsletterSize__emailFormContainer .FooterNewsletter__formInputGroup {
   justify-content: center;
 }
+
+@media (min-width: 767px) {
+  .servicePage__stepsToReturn--box.nextStep figure:before {
+    left: -6px;
+  }
+}
