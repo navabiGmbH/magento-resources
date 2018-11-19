@@ -504,3 +504,6 @@ body.magento.cms-zahlarten .mainContent {
 
 .category p.fashionAdvice__content--text {
   margin: 0 auto; }
+
+.magento .fashionAdvice__header {
+  background-position: 80%; }
