@@ -8,6 +8,10 @@
 
 .magento {
   .fashionAdvice__header {
-    background-position: 80%;
+    background-position: 0;
+
+    @include mq-start-from(tablet) {
+      background-position: 80%;
+    }
   }
 }

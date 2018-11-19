@@ -506,4 +506,7 @@ body.magento.cms-zahlarten .mainContent {
   margin: 0 auto; }
 
 .magento .fashionAdvice__header {
-  background-position: 80%; }
+  background-position: 0; }
+  @media (min-width: 991px) {
+    .magento .fashionAdvice__header {
+      background-position: 80%; } }
