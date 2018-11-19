@@ -3,6 +3,85 @@
  * Colors
  *
  */
+.cms-noroute-index .breadcrumbs {
+  display: none; }
+
+.cms-noroute-index .mainContent {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-top: 0; }
+  @media (max-width: 991px) {
+    .cms-noroute-index .mainContent {
+      margin-top: 16px;
+      margin-bottom: 16px; } }
+
+.cms-noroute-index .notfound {
+  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center top no-repeat; }
+  @media (max-width: 767px) {
+    .cms-noroute-index .notfound {
+      background: #f0ebef; } }
+  .cms-noroute-index .notfound .container {
+    padding: 0;
+    max-width: 100%;
+    width: 100%; }
+  .cms-noroute-index .notfound .fontBig {
+    margin-top: 16px; }
+  .cms-noroute-index .notfound .htmlTemplate__section {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 60px; }
+    @media (max-width: 767px) {
+      .cms-noroute-index .notfound .htmlTemplate__section {
+        padding: 16px; } }
+  .cms-noroute-index .notfound .templateHeadline {
+    margin-bottom: 16px; }
+
+.checkout-cart-index section.breadcrumbs {
+  display: none; }
+
+.figureTypeOverview__text p {
+  margin-top: 0; }
+
+.figureTypeOverview__text ul {
+  font-size: 14px;
+  margin-top: 8px; }
+
+.figureTypeOverview__tileText {
+  font-size: 14px;
+  width: 50%; }
+
+.figureTypeSlider__list {
+  min-height: 125px; }
+
+li.figureTypeSlider__listItem {
+  line-height: 1.25;
+  margin-bottom: 4px; }
+
+@media (max-width: 1024px) {
+  .figureTypeOverview__contentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .figureTypeOverview__tilesGroup,
+  .figureTypeOverview__content {
+    width: 100%; }
+  .figureTypeOverview__tile {
+    height: 84px; } }
+
+@media (max-width: 768px) {
+  .magento.category-modeberatung .top-container {
+    padding: 0 16px; } }
+
+@media (max-width: 767px) {
+  .customer-account-login input[type="email"],
+  .customer-account-login input[type="password"],
+  .customer-account-create input[type="email"],
+  .customer-account-create input[type="password"],
+  .customer-account-create input[type="text"],
+  .c-search2.on-mobile.visible-xs {
+    font-size: 16px; } }
+
 .sidebar .cms-menu li a {
   font: 14px;
   font-weight: normal; }
@@ -325,168 +404,6 @@ input[name="btn_send_comment"] {
   .servicePage__stepsToReturn--box.nextStep div:after {
     top: 105px; } }
 
-.magento.catalog-category-view .top-container {
-  margin-top: 0; }
-
-.magento.categorypath-modeberatung .top-container,
-.magento.categorypath-a-typ .top-container,
-.magento.categorypath-h-typ .top-container,
-.magento.categorypath-o-typ .top-container,
-.magento.categorypath-v-typ .top-container,
-.magento.categorypath-x-typ .top-container,
-.magento.categorypath-trends-looks .top-container {
-  margin-top: 20px; }
-  @media (max-width: 767px) {
-    .magento.categorypath-modeberatung .top-container,
-    .magento.categorypath-a-typ .top-container,
-    .magento.categorypath-h-typ .top-container,
-    .magento.categorypath-o-typ .top-container,
-    .magento.categorypath-v-typ .top-container,
-    .magento.categorypath-x-typ .top-container,
-    .magento.categorypath-trends-looks .top-container {
-      margin-top: 0; } }
-
-@media (max-width: 767px) {
-  .magento.categorypath-modeberatung .figureTypeOverview__hgroup {
-    margin-top: 0; } }
-
-@media (min-width: 767px) {
-  .howTo {
-    background: url(https://navabi.imgix.net/img/filterset/07_Modeberatung/2016/fashionadvice/01/fashion-advice-bg-02b.jpg) 100% 0 no-repeat;
-    background-size: cover; } }
-
-.magento .top-container .fashionAdvice {
-  margin-top: 0;
-  margin-bottom: 0; }
-
-.checkout-cart-index section.breadcrumbs {
-  display: none; }
-
-@media (max-width: 767px) {
-  .customer-account-login input[type="email"],
-  .customer-account-login input[type="password"],
-  .customer-account-create input[type="email"],
-  .customer-account-create input[type="password"],
-  .customer-account-create input[type="text"],
-  .c-search2.on-mobile.visible-xs {
-    font-size: 16px; } }
-
-@media (max-width: 767px) {
-  .item-details-trustbar__item.item-details-trustbar__item--third {
-    min-width: 0; } }
-
-.cms-noroute-index .breadcrumbs {
-  display: none; }
-
-.cms-noroute-index .mainContent {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding-top: 0; }
-  @media (max-width: 991px) {
-    .cms-noroute-index .mainContent {
-      margin-top: 16px;
-      margin-bottom: 16px; } }
-
-.cms-noroute-index .notfound {
-  background: url("https://navabi.imgix.net/img/filterset/magento/errorpage.jpg") center top no-repeat; }
-  @media (max-width: 767px) {
-    .cms-noroute-index .notfound {
-      background: #f0ebef; } }
-  .cms-noroute-index .notfound .container {
-    padding: 0;
-    max-width: 100%;
-    width: 100%; }
-  .cms-noroute-index .notfound .fontBig {
-    margin-top: 16px; }
-  .cms-noroute-index .notfound .htmlTemplate__section {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 60px; }
-    @media (max-width: 767px) {
-      .cms-noroute-index .notfound .htmlTemplate__section {
-        padding: 16px; } }
-  .cms-noroute-index .notfound .templateHeadline {
-    margin-bottom: 16px; }
-
-.mainNav__subMenuContent .is-emptyheading {
-  display: block;
-  height: 14px; }
-  @media (max-width: 991px) {
-    .mainNav__subMenuContent .is-emptyheading {
-      height: 25px; } }
-
-@media (min-width: 768px) {
-  .magento .top-container .container {
-    width: 750px; } }
-
-@media (min-width: 992px) {
-  .magento .top-container .container {
-    width: 970px; } }
-
-@media (min-width: 1200px) {
-  .magento .top-container .container {
-    width: 1170px; } }
-
-@media (min-width: 1600px) {
-  .magento .top-container .container {
-    width: 1170px; } }
-
-@media (max-width: 1200px) {
-  .mainNav__subMenuContent .image img {
-    height: 75%; } }
-
-@media (max-width: 1200px) {
-  .mainNav__subMenuContent .image {
-    height: 80%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 372px;
-    overflow: hidden; } }
-
-@media (max-width: 991px) {
-  .mainNav__subMenuContent .image {
-    width: 230px;
-    height: auto; } }
-
-@media (max-width: 767px) {
-  .magento .newHomepage__section {
-    padding: 0; } }
-
-.figureTypeOverview__text p {
-  margin-top: 0; }
-
-.figureTypeOverview__text ul {
-  font-size: 14px;
-  margin-top: 8px; }
-
-.figureTypeOverview__tileText {
-  font-size: 14px;
-  width: 50%; }
-
-.figureTypeSlider__list {
-  min-height: 125px; }
-
-li.figureTypeSlider__listItem {
-  line-height: 1.25;
-  margin-bottom: 4px; }
-
-@media (max-width: 1024px) {
-  .figureTypeOverview__contentWrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .figureTypeOverview__tilesGroup,
-  .figureTypeOverview__content {
-    width: 100%; }
-  .figureTypeOverview__tile {
-    height: 84px; } }
-
-@media (max-width: 768px) {
-  .magento.category-modeberatung .top-container {
-    padding: 0 16px; } }
-
 body.magento.cms-zahlarten .mainContent {
   padding-top: 0; }
 
@@ -532,3 +449,12 @@ body.magento.cms-zahlarten .mainContent {
 .magento .container.container--tbox {
   padding: 0;
   max-width: 100%; }
+
+.templateCards__singleTitle {
+  top: 72%; }
+  @media (max-width: 991px) {
+    .templateCards__singleTitle {
+      width: auto; } }
+  @media (max-width: 767px) {
+    .templateCards__singleTitle {
+      top: 72%; } }
