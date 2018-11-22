@@ -1,3 +1,7 @@
+/*
+    This stuff is already in shop repo, but not in the magento repo
+*/
+
 .loginBox__input,
 .input-text.c-search2__input {
     @include breakpoint(mobile) {
@@ -13,4 +17,8 @@ html.area-checkout .loginBox__input--three-quarter {
 
 html.area-checkout .loginBox__input--small {
     width: 45px;
+}
+
+.FooterNewsletter__formInputGroup .cta {
+    font-weight: 900;
 }
