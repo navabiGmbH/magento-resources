@@ -1,6 +1,16 @@
-.loginBox__input {
+.loginBox__input,
+.input-text.c-search2__input {
     @include breakpoint(mobile) {
         // avoids zoom on ios
         font-size: 16px;
     }
+}
+
+html.area-checkout .loginBox__input--three-quarter {
+    width: calc(60% - 55px);
+    margin-right: 10px;
+}
+
+html.area-checkout .loginBox__input--small {
+    width: 45px;
 }
