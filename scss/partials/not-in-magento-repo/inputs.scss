@@ -1,0 +1,6 @@
+.loginBox__input {
+    @include breakpoint(mobile) {
+        // avoids zoom on ios
+        font-size: 16px;
+    }
+}
