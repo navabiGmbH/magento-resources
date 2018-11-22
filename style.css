@@ -4,6 +4,17 @@
  *
  */
 /*
+    This stuff is NOT already in shop repo, and NOT in the magento repo
+*/
+@media screen and (max-width: 990px) and (min-width: 768px) {
+  .categoryFullWidthBanner__text {
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  .categoryFullWidthBanner__text {
+    max-width: 350px; } }
+
+/*
     This stuff is already in shop repo, but not in the magento repo
 */
 @media (max-width: 767px) {
