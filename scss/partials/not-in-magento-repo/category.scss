@@ -1,6 +1,15 @@
 /*
     This stuff is NOT already in shop repo, and NOT in the magento repo
 */
+.magento{
+    .category .fashionAdvice__content p{
+        margin: 0 auto;
+    }
+
+    .fashionAdvice__header{
+        background-position: 80%;
+    }
+}
 
 @media screen and (max-width: 990px) and (min-width: 768px) {
     .categoryFullWidthBanner__text {
