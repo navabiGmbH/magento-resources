@@ -12,6 +12,15 @@
 .magento .fashionAdvice__header {
   background-position: 80%; }
 
+.magento .no-banner-margin-top {
+  margin-bottom: 0; }
+
+.magento .is-970px .templateSmallerText {
+  max-width: 99%; }
+
+.magento .categoryFullWidthBanner__text h3 {
+  margin: 16px 0; }
+
 @media screen and (max-width: 990px) and (min-width: 768px) {
   .categoryFullWidthBanner__text {
     -ms-transform: translateX(0);
@@ -36,6 +45,11 @@ html.area-checkout .loginBox__input--small {
 
 .FooterNewsletter__formInputGroup .cta {
   font-weight: 900; }
+
+@media (min-width: 768px) {
+  .magento .mainNav__subMenuContent .is-emptyheading {
+    display: block !important;
+    margin-bottom: 16px; } }
 
 .cms-home {
   /* First Block */

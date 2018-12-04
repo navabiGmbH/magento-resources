@@ -9,6 +9,19 @@
     .fashionAdvice__header{
         background-position: 80%;
     }
+
+    .no-banner-margin-top{
+        margin-bottom: 0;
+    }
+    .is-970px .templateSmallerText{
+        max-width: 99%;
+    }
+
+    .categoryFullWidthBanner__text{
+        h3{
+            margin: 16px 0;
+        }
+    }
 }
 
 @media screen and (max-width: 990px) and (min-width: 768px) {

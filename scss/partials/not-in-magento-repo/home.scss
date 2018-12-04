@@ -1,8 +1,17 @@
+.magento{
+    .mainNav__subMenuContent{
+        .is-emptyheading{
+            @media (min-width: 768px) {
+                display: block!important;
+                margin-bottom: 16px;
+            }
+        }
+    } 
+} 
 .cms-home{
     .container{
         padding: 0;
     }
-
     //Shop by size
     .shopBySize {
         background: none;
