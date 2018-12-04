@@ -51,6 +51,9 @@ html.area-checkout .loginBox__input--small {
     display: block !important;
     margin-bottom: 16px; } }
 
+.magento .mainContent {
+  padding-top: 0 !important; }
+
 .cms-home {
   /* First Block */
   /* Tablet version */
