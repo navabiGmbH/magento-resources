@@ -63,3 +63,7 @@ html.area-checkout .loginBox__input--small {
 
 .cms-home .container {
   padding: 0; }
+
+.categoryFullWidthBanner,
+.c-top-category-banner {
+  margin-bottom: 0 !important; }
